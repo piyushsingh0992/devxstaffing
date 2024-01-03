@@ -12,28 +12,30 @@ interface Props {
 export const IconLeftToRightListTriangle = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-left-to-right-list-triangle ${className}`}
       fill="none"
-      height="20"
-      viewBox="0 0 20 20"
-      width="20"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M9.16669 4.58333L17.5 4.58333" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.25" />
+      <path className="path" d="M11 5.5L21 5.5" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.5" />
       <path
-        d="M4.5 14.0772C5.38889 14.6725 5.83333 14.9702 5.83333 15.4167C5.83333 15.8632 5.38889 16.1608 4.5 16.7561C3.61111 17.3515 3.16667 17.6491 2.83333 17.4259C2.5 17.2026 2.5 16.6073 2.5 15.4167C2.5 14.226 2.5 13.6307 2.83333 13.4074C3.16667 13.1842 3.61111 13.4819 4.5 14.0772Z"
+        className="path"
+        d="M5.4 16.8926C6.46667 17.607 7 17.9642 7 18.5C7 19.0358 6.46667 19.393 5.4 20.1074C4.33333 20.8218 3.8 21.1789 3.4 20.9111C3 20.6432 3 19.9288 3 18.5C3 17.0712 3 16.3568 3.4 16.0889C3.8 15.8211 4.33333 16.1782 5.4 16.8926Z"
         stroke="#8C8EA5"
         strokeLinecap="round"
-        strokeWidth="1.25"
+        strokeWidth="1.5"
       />
       <path
-        d="M4.5 3.24386C5.38889 3.83918 5.83333 4.13684 5.83333 4.58333C5.83333 5.02983 5.38889 5.32749 4.5 5.92281C3.61111 6.51813 3.16667 6.81579 2.83333 6.59255C2.5 6.3693 2.5 5.77398 2.5 4.58333C2.5 3.39269 2.5 2.79737 2.83333 2.57412C3.16667 2.35088 3.61111 2.64854 4.5 3.24386Z"
+        className="path"
+        d="M5.4 3.89263C6.46667 4.60702 7 4.96421 7 5.5C7 6.03579 6.46667 6.39298 5.4 7.10737C4.33333 7.82176 3.8 8.17895 3.4 7.91105C3 7.64316 3 6.92877 3 5.5C3 4.07123 3 3.35684 3.4 3.08895C3.8 2.82105 4.33333 3.17824 5.4 3.89263Z"
         stroke="#8C8EA5"
         strokeLinecap="round"
-        strokeWidth="1.25"
+        strokeWidth="1.5"
       />
-      <path d="M9.16669 10L17.5 10" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.25" />
-      <path d="M9.16669 15.4167L17.5 15.4167" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.25" />
+      <path className="path" d="M11 12L21 12" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.5" />
+      <path className="path" d="M11 18.5L21 18.5" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.5" />
     </svg>
   );
 };

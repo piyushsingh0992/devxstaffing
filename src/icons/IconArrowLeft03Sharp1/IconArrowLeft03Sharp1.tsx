@@ -12,21 +12,35 @@ interface Props {
 export const IconArrowLeft03Sharp1 = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-arrow-left-03-sharp-1 ${className}`}
       fill="none"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
+      height="20"
+      viewBox="0 0 20 20"
+      width="20"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M4 5.99988L4 17.9999" stroke="#8C8EA5" strokeLinecap="round" strokeWidth="1.5" />
-      <path d="M9 12L19.9995 12.0002" stroke="#8C8EA5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
       <path
-        d="M12 8L8.70711 11.2929C8.37377 11.6262 8.20711 11.7929 8.20711 12C8.20711 12.2071 8.37377 12.3738 8.70711 12.7071L12 16"
-        stroke="#8C8EA5"
+        className="path"
+        d="M3.33334 4.99988L3.33334 14.9999"
+        stroke="#B3B4CE"
+        strokeLinecap="round"
+        strokeWidth="1.25"
+      />
+      <path
+        className="path"
+        d="M7.5 10L16.6663 10.0002"
+        stroke="#B3B4CE"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
+      />
+      <path
+        className="path"
+        d="M9.99999 6.66669L7.25591 9.41077C6.97813 9.68854 6.83925 9.82743 6.83925 10C6.83925 10.1726 6.97813 10.3115 7.25591 10.5893L9.99999 13.3334"
+        stroke="#B3B4CE"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.25"
       />
     </svg>
   );

@@ -1,0 +1,19 @@
+.icon-regular {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+}
+
+.icon-regular .icon-more-vertical {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.icon-regular.hover {
+  background-color: var(--primitives-midnight-midnight-100);
+}

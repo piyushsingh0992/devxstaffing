@@ -12,18 +12,20 @@ interface Props {
 export const IconArrowRight01Sharp = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-arrow-right-01-sharp ${className}`}
       fill="none"
-      height="17"
-      viewBox="0 0 16 17"
-      width="16"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M6 12.5L9.5286 8.9714C9.75082 8.74918 9.86193 8.63807 9.86193 8.5C9.86193 8.36193 9.75082 8.25082 9.5286 8.0286L6 4.5"
+        className="path"
+        d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6.00001"
         stroke="#8C8EA5"
         strokeLinecap="round"
         strokeLinejoin="round"
+        strokeWidth="1.5"
       />
     </svg>
   );

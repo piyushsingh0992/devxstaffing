@@ -12,31 +12,34 @@ interface Props {
 export const IconTarget011 = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-target-01-1 ${className}`}
       fill="none"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
+      height="20"
+      viewBox="0 0 20 20"
+      width="20"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M15.1312 2.5C14.1462 2.17555 13.0936 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 10.9548 21.8396 9.94704 21.5422 9"
-        stroke="#8C8EA5"
+        className="path"
+        d="M12.6093 2.08334C11.7885 1.81296 10.9114 1.66667 10 1.66667C5.39765 1.66667 1.66669 5.39763 1.66669 10C1.66669 14.6024 5.39765 18.3333 10 18.3333C14.6024 18.3333 18.3334 14.6024 18.3334 10C18.3334 9.129 18.1997 8.28921 17.9519 7.5"
+        stroke="#DF5FFE"
         strokeLinecap="round"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
       />
       <path
-        d="M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7"
-        stroke="#8C8EA5"
+        className="path"
+        d="M14.1666 9.99999C14.1666 12.3012 12.3012 14.1667 9.99998 14.1667C7.69879 14.1667 5.83331 12.3012 5.83331 9.99999C5.83331 7.69881 7.69879 5.83333 9.99998 5.83333"
+        stroke="#DF5FFE"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
       />
       <path
-        d="M19.5 4.49999L12 12M19.5 4.49999V1.99999M19.5 4.49999H22"
-        stroke="#8C8EA5"
+        className="path"
+        d="M16.25 3.74999L10 10M16.25 3.74999V1.66666M16.25 3.74999H18.3333"
+        stroke="#DF5FFE"
         strokeLinecap="round"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
       />
     </svg>
   );

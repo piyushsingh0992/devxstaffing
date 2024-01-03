@@ -3,9 +3,11 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
+import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
-import { IconMoreVertical3 } from "../../icons/IconMoreVertical3";
+import { IconMoreVertical2 } from "../../icons/IconMoreVertical2";
+import "./style.css";
 
 interface Props {
   stateProp: "hover" | "normal";
@@ -18,7 +20,7 @@ export const IconRegular = ({
   stateProp,
   size,
   className,
-  icon = <IconMoreVertical3 className="!relative !w-[20px] !h-[20px]" />,
+  icon = <IconMoreVertical2 className="icon-more-vertical" />,
 }: Props): JSX.Element => {
   const [state, dispatch] = useReducer(reducer, {
     state: stateProp || "normal",
@@ -27,9 +29,7 @@ export const IconRegular = ({
 
   return (
     <div
-      className={`inline-flex items-center gap-[8px] p-[2px] rounded-[4px] justify-center relative ${
-        state.state === "hover" ? "bg-primitives-midnight-midnight-100" : ""
-      } ${className}`}
+      className={`icon-regular ${state.state} ${className}`}
       onMouseLeave={() => {
         dispatch("mouse_leave");
       }}
@@ -59,3 +59,8 @@ function reducer(state: any, action: any) {
 
   return state;
 }
+
+IconRegular.propTypes = {
+  stateProp: PropTypes.oneOf(["hover", "normal"]),
+  size: PropTypes.oneOf(["regular", "small"]),
+};

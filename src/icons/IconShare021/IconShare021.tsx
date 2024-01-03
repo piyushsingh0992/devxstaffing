@@ -12,25 +12,27 @@ interface Props {
 export const IconShare021 = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-share-02-1 ${className}`}
       fill="none"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
+      height="20"
+      viewBox="0 0 20 20"
+      width="20"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M9 4.5C5.50442 5.70104 3 8.94175 3 12.7511C3 13.9579 3.25134 15.1076 3.70591 16.1534M15 4.5C18.4956 5.70104 21 8.94175 21 12.7511C21 13.7736 20.8195 14.7552 20.4879 15.6674M16.5 20.3296C15.1762 21.074 13.6393 21.5 12 21.5C10.3607 21.5 8.82378 21.074 7.5 20.3296"
+        className="path"
+        d="M7.5 3.75C4.58702 4.75087 2.5 7.45146 2.5 10.6259C2.5 11.6315 2.70945 12.5896 3.08826 13.4612M12.5 3.75C15.413 4.75087 17.5 7.45146 17.5 10.6259C17.5 11.478 17.3496 12.296 17.0732 13.0562M13.75 16.9413C12.6469 17.5616 11.3661 17.9167 10 17.9167C8.63392 17.9167 7.35315 17.5616 6.25 16.9413"
         stroke="#8C8EA5"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
       />
       <path
-        d="M15 5C15 6.65685 13.6569 8 12 8C10.3431 8 9 6.65685 9 5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5Z"
+        className="path"
+        d="M12.5 4.16667C12.5 5.54738 11.3807 6.66667 10 6.66667C8.61929 6.66667 7.5 5.54738 7.5 4.16667C7.5 2.78596 8.61929 1.66667 10 1.66667C11.3807 1.66667 12.5 2.78596 12.5 4.16667Z"
         stroke="#8C8EA5"
-        strokeWidth="1.5"
+        strokeWidth="1.25"
       />
-      <circle cx="5" cy="19" r="3" stroke="#8C8EA5" strokeWidth="1.5" />
-      <circle cx="19" cy="19" r="3" stroke="#8C8EA5" strokeWidth="1.5" />
+      <circle className="circle" cx="4.16669" cy="15.8333" r="2.5" stroke="#8C8EA5" strokeWidth="1.25" />
+      <circle className="circle" cx="15.8333" cy="15.8333" r="2.5" stroke="#8C8EA5" strokeWidth="1.25" />
     </svg>
   );
 };

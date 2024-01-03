@@ -1,0 +1,37 @@
+.btn-terciary {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 8px;
+  height: 28px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.btn-terciary .label {
+  color: var(--base-content-medium-emphasis);
+  font-family: var(--paragraph-regular-small-font-family);
+  font-size: var(--paragraph-regular-small-font-size);
+  font-style: var(--paragraph-regular-small-font-style);
+  font-weight: var(--paragraph-regular-small-font-weight);
+  letter-spacing: var(--paragraph-regular-small-letter-spacing);
+  line-height: var(--paragraph-regular-small-line-height);
+  margin-bottom: -3px;
+  margin-top: -5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.btn-terciary .icon-share {
+  height: 20px !important;
+  margin-bottom: -4px !important;
+  margin-top: -4px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.btn-terciary.state-hover {
+  background-color: var(--primitives-midnight-midnight-100);
+}

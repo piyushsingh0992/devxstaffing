@@ -3,9 +3,11 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
+import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
-import { IconShare082 } from "../../icons/IconShare082";
+import { IconShare081 } from "../../icons/IconShare081";
+import "./style.css";
 
 interface Props {
   prop: string;
@@ -18,7 +20,7 @@ export const BtnTerciary = ({
   prop = "Label",
   stateProp,
   className,
-  icon = <IconShare082 className="!relative !w-[20px] !h-[20px] !mt-[-4.00px] !mb-[-4.00px]" />,
+  icon = <IconShare081 className="icon-share" />,
 }: Props): JSX.Element => {
   const [state, dispatch] = useReducer(reducer, {
     state: stateProp || "normal",
@@ -26,9 +28,7 @@ export const BtnTerciary = ({
 
   return (
     <div
-      className={`inline-flex items-center gap-[8px] p-[8px] h-[28px] rounded-[8px] justify-center relative ${
-        state.state === "hover" ? "bg-primitives-midnight-midnight-100" : ""
-      } ${className}`}
+      className={`btn-terciary state-${state.state} ${className}`}
       onMouseLeave={() => {
         dispatch("mouse_leave");
       }}
@@ -37,9 +37,7 @@ export const BtnTerciary = ({
       }}
     >
       {icon}
-      <div className="font-paragraph-regular-small w-fit mt-[-5.00px] tracking-[var(--paragraph-regular-small-letter-spacing)] text-[length:var(--paragraph-regular-small-font-size)] [font-style:var(--paragraph-regular-small-font-style)] text-base-content-medium-emphasis font-[number:var(--paragraph-regular-small-font-weight)] leading-[var(--paragraph-regular-small-line-height)] whitespace-nowrap mb-[-3.00px] relative">
-        {prop}
-      </div>
+      <div className="label">{prop}</div>
     </div>
   );
 };
@@ -61,3 +59,8 @@ function reducer(state: any, action: any) {
 
   return state;
 }
+
+BtnTerciary.propTypes = {
+  prop: PropTypes.string,
+  stateProp: PropTypes.oneOf(["hover", "normal"]),
+};

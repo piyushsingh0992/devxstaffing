@@ -595,11 +595,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"6d18d6bd340e7473":"786KC","74ad5ea14201648c":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"6d18d6bd340e7473":"3FsDI","74ad5ea14201648c":"1dldy"}],"3FsDI":[function(require,module,exports) {
 "use strict";
-module.exports = require("96622d495519d4e");
+module.exports = require("bc819d12737f82d");
 
-},{"96622d495519d4e":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"bc819d12737f82d":"dtx5b"}],"dtx5b":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -27173,29 +27173,28 @@ var _iconRegular = require("../../components/IconRegular");
 var _logo = require("../../components/Logo");
 var _bell = require("../../icons/Bell");
 var _iconAdd011 = require("../../icons/IconAdd011");
-var _iconAnalytics01 = require("../../icons/IconAnalytics01");
-var _iconArchive02 = require("../../icons/IconArchive02");
-var _iconArrowDown01Fill = require("../../icons/IconArrowDown01Fill");
-var _iconArrowLeft03Sharp = require("../../icons/IconArrowLeft03Sharp");
-var _iconArrowRight01Sharp = require("../../icons/IconArrowRight01Sharp");
-var _iconBuilding03 = require("../../icons/IconBuilding03");
-var _iconCalendar03 = require("../../icons/IconCalendar03");
-var _iconContact01 = require("../../icons/IconContact01");
-var _iconFile01 = require("../../icons/IconFile01");
-var _iconFileExport = require("../../icons/IconFileExport");
-var _iconFloppyDisk = require("../../icons/IconFloppyDisk");
-var _iconInbox = require("../../icons/IconInbox");
-var _iconLayout3Column = require("../../icons/IconLayout3Column");
-var _iconLeftToRightListDash = require("../../icons/IconLeftToRightListDash");
-var _iconLeftToRightListTriangle = require("../../icons/IconLeftToRightListTriangle");
-var _iconMessage01 = require("../../icons/IconMessage01");
-var _iconSetting01 = require("../../icons/IconSetting01");
-var _iconShare02 = require("../../icons/IconShare02");
-var _iconTarget01 = require("../../icons/IconTarget01");
-var _iconWorkflowSquare08 = require("../../icons/IconWorkflowSquare08");
+var _iconAnalytics011 = require("../../icons/IconAnalytics011");
+var _iconArchive021 = require("../../icons/IconArchive021");
+var _iconArrowDown01Fill4 = require("../../icons/IconArrowDown01Fill4");
+var _iconArrowLeft03Sharp1 = require("../../icons/IconArrowLeft03Sharp1");
+var _iconArrowRight01Sharp3 = require("../../icons/IconArrowRight01Sharp3");
+var _iconBuilding031 = require("../../icons/IconBuilding031");
+var _iconCalendar031 = require("../../icons/IconCalendar031");
+var _iconContact011 = require("../../icons/IconContact011");
+var _iconFile011 = require("../../icons/IconFile011");
+var _iconFileExport1 = require("../../icons/IconFileExport1");
+var _iconFloppyDisk1 = require("../../icons/IconFloppyDisk1");
+var _iconInbox1 = require("../../icons/IconInbox1");
+var _iconLayout3Column1 = require("../../icons/IconLayout3Column1");
+var _iconLeftToRightListDash3 = require("../../icons/IconLeftToRightListDash3");
+var _iconLeftToRightListTriangle1 = require("../../icons/IconLeftToRightListTriangle1");
+var _iconMessage011 = require("../../icons/IconMessage011");
+var _iconSetting011 = require("../../icons/IconSetting011");
+var _iconShare021 = require("../../icons/IconShare021");
+var _iconTarget011 = require("../../icons/IconTarget011");
+var _iconWorkflowSquare081 = require("../../icons/IconWorkflowSquare081");
 var _weightRegular = require("../../icons/WeightRegular");
-var _vector7304Svg = require("../../images/vector-7304.svg");
-var _vector7304SvgDefault = parcelHelpers.interopDefault(_vector7304Svg);
+var _styleCss = require("./style.css");
 var _subtract2Svg = require("../../images/subtract-2.svg");
 var _subtract2SvgDefault = parcelHelpers.interopDefault(_subtract2Svg);
 var _subtract1Svg = require("../../images/subtract-1.svg");
@@ -27210,197 +27209,260 @@ var _frame1597878361Svg = require("../../images/frame-1597878361.svg");
 var _frame1597878361SvgDefault = parcelHelpers.interopDefault(_frame1597878361Svg);
 const ListView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#f4f5f5] flex flex-row justify-center w-full",
+        className: "list-view",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "bg-[#f4f5f5] overflow-hidden w-[1440px] h-[1257px]",
+            className: "overlap-wrapper",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "relative w-[1442px] h-[1259px] -top-px -left-px",
+                className: "overlap",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "absolute w-[1442px] h-[1259px] top-0 left-0",
+                    className: "overlap-group",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-col w-[245px] h-[1211px] items-start gap-[16px] px-0 py-[16px] absolute top-[48px] left-0 bg-white border-r [border-right-style:solid] border-base-border-border-primary",
+                            className: "frame",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex items-center justify-between px-[12px] py-0 relative self-stretch w-full flex-[0_0_auto]",
+                                    className: "div",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex items-center gap-[8px] relative flex-[0_0_auto]",
+                                            className: "frame-2",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "relative w-fit mt-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-medium-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-small-font-style)]",
+                                                    className: "text-wrapper",
                                                     children: "My Private Stuff"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 48,
                                                     columnNumber: 19
                                                 }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill.IconArrowDown01Fill), {
-                                                    className: "!relative !w-[20px] !h-[20px]"
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill4.IconArrowDown01Fill4), {
+                                                    className: "icon-instance-node"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 49,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 47,
                                             columnNumber: 17
                                         }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowLeft03Sharp.IconArrowLeft03Sharp), {
-                                            className: "!relative !w-[20px] !h-[20px]"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowLeft03Sharp1.IconArrowLeft03Sharp1), {
+                                            className: "icon-instance-node"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 51,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex flex-col items-start gap-[12px] relative flex-1 self-stretch w-full grow",
+                                    className: "frame-3",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "flex flex-col items-start gap-[4px] relative self-stretch w-full flex-[0_0_auto]",
+                                            className: "div-2",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                    className: "frame-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash.IconLeftToRightListDash), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]",
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash3.IconLeftToRightListDash3), {
+                                                            className: "icon-instance-node-2",
                                                             color: "#8C8EA5"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 57,
+                                                            lineNumber: 56,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                                            className: "text-wrapper-2",
                                                             children: "Lists"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 61,
+                                                            lineNumber: 57,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 55,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                    className: "frame-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconInbox.IconInbox), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconInbox1.IconInbox1), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 66,
+                                                            lineNumber: 60,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                                            className: "text-wrapper-2",
                                                             children: "Inbox"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 61,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "div-wrapper",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-3",
+                                                                children: "17"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/ListView/ListView.tsx",
+                                                                lineNumber: 63,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 62,
+                                                            columnNumber: 21
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/screens/ListView/ListView.tsx",
+                                                    lineNumber: 59,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "frame-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconMessage011.IconMessage011), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
                                                             lineNumber: 67,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "inline-flex min-w-[28px] h-[20px] items-center justify-center gap-[4px] px-[6px] py-0 relative flex-[0_0_auto] mt-[-2.00px] mb-[-2.00px] bg-base-primary-accent-light rounded-[999px]",
+                                                            className: "text-wrapper-2",
+                                                            children: "Chat"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 68,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "div-wrapper",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-base-primary-accent text-[14px] tracking-[-0.40px] leading-[19.6px] whitespace-nowrap",
-                                                                children: "17"
+                                                                className: "text-wrapper-3",
+                                                                children: "6"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 71,
+                                                                lineNumber: 70,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 70,
+                                                            lineNumber: 69,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 66,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                    className: "frame-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconMessage01.IconMessage01), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArchive021.IconArchive021), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 77,
+                                                            lineNumber: 74,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
-                                                            children: "Chat"
+                                                            className: "text-wrapper-2",
+                                                            children: "Files"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 75,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "inline-flex min-w-[28px] h-[20px] items-center justify-center gap-[4px] px-[6px] py-0 relative flex-[0_0_auto] mt-[-2.00px] mb-[-2.00px] bg-base-primary-accent-light rounded-[999px]",
+                                                            className: "frame-5",
                                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-base-primary-accent text-[14px] tracking-[-0.40px] leading-[19.6px] whitespace-nowrap",
-                                                                children: "6"
+                                                                className: "text-wrapper-4",
+                                                                children: "163"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 82,
+                                                                lineNumber: 77,
                                                                 columnNumber: 23
                                                             }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 76,
+                                                            columnNumber: 21
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/screens/ListView/ListView.tsx",
+                                                    lineNumber: 73,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "frame-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFile011.IconFile011), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
                                                             lineNumber: 81,
                                                             columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "text-wrapper-2",
+                                                            children: "Docs"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 82,
+                                                            columnNumber: 21
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "frame-5",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-4",
+                                                                children: "107"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/ListView/ListView.tsx",
+                                                                lineNumber: 84,
+                                                                columnNumber: 23
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ListView/ListView.tsx",
+                                                            lineNumber: 83,
+                                                            columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 80,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                    className: "frame-4",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArchive02.IconArchive02), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconContact011.IconContact011), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
                                                             lineNumber: 88,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
-                                                            children: "Files"
+                                                            className: "text-wrapper-2",
+                                                            children: "Contacts"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
                                                             lineNumber: 89,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "inline-flex min-w-[28px] h-[20px] items-center justify-center gap-[4px] px-[6px] py-0 relative flex-[0_0_auto] mt-[-2.00px] mb-[-2.00px] bg-primitives-midnight-midnight-100 rounded-[999px]",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-base-content-medium-emphasis text-[14px] tracking-[-0.40px] leading-[19.6px] whitespace-nowrap",
-                                                                children: "163"
-                                                            }, void 0, false, {
-                                                                fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 93,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 92,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
@@ -27408,878 +27470,797 @@ const ListView = ()=>{
                                                     fileName: "src/screens/ListView/ListView.tsx",
                                                     lineNumber: 87,
                                                     columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFile01.IconFile01), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 99,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
-                                                            children: "Docs"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 100,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "inline-flex min-w-[28px] h-[20px] items-center justify-center gap-[4px] px-[6px] py-0 relative flex-[0_0_auto] mt-[-2.00px] mb-[-2.00px] bg-primitives-midnight-midnight-100 rounded-[999px]",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-base-content-medium-emphasis text-[14px] tracking-[-0.40px] leading-[19.6px] whitespace-nowrap",
-                                                                children: "107"
-                                                            }, void 0, false, {
-                                                                fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 104,
-                                                                columnNumber: 23
-                                                            }, undefined)
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 103,
-                                                            columnNumber: 21
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 98,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconContact01.IconContact01), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 110,
-                                                            columnNumber: 21
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
-                                                            children: "Contacts"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 111,
-                                                            columnNumber: 21
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 109,
-                                                    columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "relative self-stretch w-full h-px object-cover",
-                                            alt: "Vector",
-                                            src: (0, _vector7304SvgDefault.default)
-                                        }, void 0, false, {
-                                            fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 54,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "flex flex-col items-start gap-[4px] relative self-stretch w-full flex-[0_0_auto]",
+                                            className: "div-2",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex h-[32px] items-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                    className: "frame-6",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "flex w-[25.5px] h-[25.5px] items-center justify-center gap-[6px] p-[3px] relative mt-[-4.75px] mb-[-4.75px] ml-[-0.75px] rounded-[1198.8px] border-[0.75px] border-solid border-base-border-border-primary [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(237.31,237.31,237.31)_100%)]",
+                                                            className: "frame-7",
                                                             children: [
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "absolute w-[24px] h-[20px] top-[2px] left-0 bg-white rounded-[1.5px] opacity-40"
+                                                                    className: "rectangle-2"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 124,
+                                                                    lineNumber: 96,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "relative w-[12.6px] h-[14px]",
+                                                                    className: "group",
                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "relative w-[13px] h-[14px]",
+                                                                        className: "overlap-group-2",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                                                className: "absolute w-[6px] h-[11px] top-px left-[4px]",
-                                                                                alt: "Subtract",
-                                                                                src: (0, _subtract2SvgDefault.default)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/screens/ListView/ListView.tsx",
-                                                                                lineNumber: 127,
-                                                                                columnNumber: 27
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                                                className: "absolute w-[7px] h-[14px] top-0 left-0",
-                                                                                alt: "Subtract",
-                                                                                src: (0, _subtract1SvgDefault.default)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/screens/ListView/ListView.tsx",
-                                                                                lineNumber: 132,
-                                                                                columnNumber: 27
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                                                className: "absolute w-[5px] h-[9px] top-[3px] left-[8px]",
+                                                                                className: "subtract",
                                                                                 alt: "Subtract",
                                                                                 src: (0, _subtractSvgDefault.default)
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                                lineNumber: 137,
+                                                                                lineNumber: 99,
+                                                                                columnNumber: 27
+                                                                            }, undefined),
+                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                                                className: "img",
+                                                                                alt: "Subtract",
+                                                                                src: (0, _subtract1SvgDefault.default)
+                                                                            }, void 0, false, {
+                                                                                fileName: "src/screens/ListView/ListView.tsx",
+                                                                                lineNumber: 104,
+                                                                                columnNumber: 27
+                                                                            }, undefined),
+                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                                                className: "subtract-2",
+                                                                                alt: "Subtract",
+                                                                                src: (0, _subtract2SvgDefault.default)
+                                                                            }, void 0, false, {
+                                                                                fileName: "src/screens/ListView/ListView.tsx",
+                                                                                lineNumber: 109,
                                                                                 columnNumber: 27
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "src/screens/ListView/ListView.tsx",
-                                                                        lineNumber: 126,
+                                                                        lineNumber: 98,
                                                                         columnNumber: 25
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 125,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 123,
+                                                            lineNumber: 95,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "flex-1 mt-[-1.50px] font-[number:var(--other-detail-xsmall-bold-font-weight)] text-base-content-high-emphasis tracking-[var(--other-detail-xsmall-bold-letter-spacing)] relative font-other-detail-xsmall-bold text-[length:var(--other-detail-xsmall-bold-font-size)] leading-[var(--other-detail-xsmall-bold-line-height)] [font-style:var(--other-detail-xsmall-bold-font-style)]",
+                                                            className: "compass-collective",
                                                             children: "COMPASS COLLECTIVE"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 117,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconSetting01.IconSetting01), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconSetting011.IconSetting011), {
+                                                            className: "icon-instance-node-2"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 118,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 94,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex flex-col items-start gap-[4px] relative self-stretch w-full flex-[0_0_auto]",
+                                                    className: "div-2",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                        className: "frame-4",
                                                         children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconShare02.IconShare02), {
-                                                                className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconShare021.IconShare021), {
+                                                                className: "icon-instance-node-2"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 152,
+                                                                lineNumber: 123,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                                                className: "text-wrapper-2",
                                                                 children: "Organization space"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 153,
+                                                                lineNumber: 124,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/ListView/ListView.tsx",
-                                                        lineNumber: 151,
+                                                        lineNumber: 122,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 121,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex flex-col items-start gap-[4px] relative self-stretch w-full flex-[0_0_auto]",
+                                                    className: "div-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                            className: "frame-4",
                                                             children: [
-                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconTarget01.IconTarget01), {
-                                                                    className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconTarget011.IconTarget011), {
+                                                                    className: "icon-instance-node-2"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 160,
+                                                                    lineNumber: 129,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-bold-small-bold font-[number:var(--paragraph-bold-small-bold-font-weight)] text-base-departments-marketing text-[length:var(--paragraph-bold-small-bold-font-size)] tracking-[var(--paragraph-bold-small-bold-letter-spacing)] leading-[var(--paragraph-bold-small-bold-line-height)] [font-style:var(--paragraph-bold-small-bold-font-style)]",
+                                                                    className: "text-wrapper-5",
                                                                     children: "Marketing"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 161,
+                                                                    lineNumber: 130,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 159,
+                                                            lineNumber: 128,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "h-[32px] items-center justify-center gap-[8px] pl-[40px] pr-[12px] py-[8px] rounded-[8px] flex relative self-stretch w-full",
+                                                            className: "frame-8",
                                                             children: [
-                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash.IconLeftToRightListDash), {
-                                                                    className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]",
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash3.IconLeftToRightListDash3), {
+                                                                    className: "icon-instance-node-2",
                                                                     color: "#8C8EA5"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 166,
+                                                                    lineNumber: 133,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                                                    className: "text-wrapper-2",
                                                                     children: "Lists"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 170,
+                                                                    lineNumber: 134,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "inline-flex min-w-[28px] h-[20px] items-center justify-center gap-[4px] px-[6px] py-0 relative flex-[0_0_auto] mt-[-2.00px] mb-[-2.00px] bg-primitives-midnight-midnight-100 rounded-[999px]",
+                                                                    className: "frame-5",
                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                        className: "relative w-fit mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-base-content-medium-emphasis text-[14px] tracking-[-0.40px] leading-[19.6px] whitespace-nowrap",
+                                                                        className: "text-wrapper-4",
                                                                         children: "44"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/ListView/ListView.tsx",
-                                                                        lineNumber: 174,
+                                                                        lineNumber: 136,
                                                                         columnNumber: 25
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 173,
+                                                                    lineNumber: 135,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 132,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "flex h-[32px] items-center justify-center gap-[8px] pl-[64px] pr-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                            className: "frame-9",
                                                             children: [
-                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListTriangle.IconLeftToRightListTriangle), {
-                                                                    className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListTriangle1.IconLeftToRightListTriangle1), {
+                                                                    className: "icon-instance-node-2"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 180,
+                                                                    lineNumber: 140,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                                                    className: "text-wrapper-2",
                                                                     children: "Structure"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 141,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 139,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 127,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex-col items-start gap-[4px] flex-[0_0_auto] flex relative self-stretch w-full",
+                                                    className: "div-2",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "flex h-[32px] items-center justify-center gap-[8px] px-[12px] py-[8px] relative self-stretch w-full rounded-[8px]",
+                                                        className: "frame-4",
                                                         children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconAnalytics01.IconAnalytics01), {
-                                                                className: "!relative !w-[20px] !h-[20px] !mt-[-2.00px] !mb-[-2.00px]"
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconAnalytics011.IconAnalytics011), {
+                                                                className: "icon-instance-node-2"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 188,
+                                                                lineNumber: 146,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "relative flex-1 mt-[-3.00px] mb-[-1.00px] font-paragraph-bold-small-bold font-[number:var(--paragraph-bold-small-bold-font-weight)] text-base-departments-finance text-[length:var(--paragraph-bold-small-bold-font-size)] tracking-[var(--paragraph-bold-small-bold-letter-spacing)] leading-[var(--paragraph-bold-small-bold-line-height)] [font-style:var(--paragraph-bold-small-bold-font-style)]",
+                                                                className: "text-wrapper-6",
                                                                 children: "Finance"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                                lineNumber: 189,
+                                                                lineNumber: 147,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/ListView/ListView.tsx",
-                                                        lineNumber: 187,
+                                                        lineNumber: 145,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 144,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 121,
-                                            columnNumber: 17
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "relative self-stretch w-full h-px object-cover",
-                                            alt: "Vector",
-                                            src: (0, _vector7304SvgDefault.default)
-                                        }, void 0, false, {
-                                            fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative flex-1 w-[26px] grow bg-[#d9d9d9] opacity-0"
+                                            className: "rectangle-3"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 200,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 53,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex w-[243px] h-[48px] items-center gap-[9px] px-[12px] py-[8px] absolute top-[1161px] left-0 border-t [border-top-style:solid] border-base-border-border-primary",
+                                    className: "frame-10",
                                     children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconBuilding03.IconBuilding03), {
-                                            className: "!relative !w-[20px] !h-[20px]"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconBuilding031.IconBuilding031), {
+                                            className: "icon-instance-node"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 155,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative flex-1 font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                            className: "text-wrapper-7",
                                             children: "Join or create org"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 202,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ListView/ListView.tsx",
-                            lineNumber: 44,
+                            lineNumber: 45,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-col w-[1197px] items-start justify-center gap-[8px] px-0 py-[20px] absolute top-[49px] left-[244px] rounded-[8px] overflow-hidden",
+                            className: "main",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex h-[72px] items-center justify-between px-[40px] py-0 relative self-stretch w-full",
+                                    className: "title-and-main-info",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex flex-col items-start justify-center gap-[8px] relative flex-[0_0_auto]",
+                                            className: "frame-11",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center justify-center gap-[4px] relative flex-[0_0_auto]",
+                                                    className: "frame-12",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "w-[63px] mt-[-1.00px] font-[number:var(--paragraph-regular-xsmall-font-weight)] text-base-content-medium-emphasis tracking-[var(--paragraph-regular-xsmall-letter-spacing)] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] relative font-paragraph-regular-xsmall text-[length:var(--paragraph-regular-xsmall-font-size)] leading-[var(--paragraph-regular-xsmall-line-height)] [font-style:var(--paragraph-regular-xsmall-font-style)]",
+                                                            className: "text-wrapper-8",
                                                             children: "Compass Collective"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 163,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp.IconArrowRight01Sharp), {
-                                                            className: "!relative !w-[16px] !h-[16px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp3.IconArrowRight01Sharp3), {
+                                                            className: "icon-arrow-right"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 216,
+                                                            lineNumber: 164,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit mt-[-1.00px] font-paragraph-regular-xsmall font-[number:var(--paragraph-regular-xsmall-font-weight)] text-base-content-medium-emphasis text-[length:var(--paragraph-regular-xsmall-font-size)] tracking-[var(--paragraph-regular-xsmall-letter-spacing)] leading-[var(--paragraph-regular-xsmall-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-xsmall-font-style)]",
+                                                            className: "text-wrapper-9",
                                                             children: "Marketing"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 217,
+                                                            lineNumber: 165,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp.IconArrowRight01Sharp), {
-                                                            className: "!relative !w-[16px] !h-[16px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp3.IconArrowRight01Sharp3), {
+                                                            className: "icon-arrow-right"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 220,
+                                                            lineNumber: 166,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit mt-[-1.00px] font-paragraph-regular-xsmall font-[number:var(--paragraph-regular-xsmall-font-weight)] text-base-content-medium-emphasis text-[length:var(--paragraph-regular-xsmall-font-size)] tracking-[var(--paragraph-regular-xsmall-letter-spacing)] leading-[var(--paragraph-regular-xsmall-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-xsmall-font-style)]",
+                                                            className: "text-wrapper-9",
                                                             children: "Lists"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 221,
+                                                            lineNumber: 167,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp.IconArrowRight01Sharp), {
-                                                            className: "!relative !w-[16px] !h-[16px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowRight01Sharp3.IconArrowRight01Sharp3), {
+                                                            className: "icon-arrow-right"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 224,
+                                                            lineNumber: 168,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit mt-[-1.00px] font-paragraph-regular-xsmall font-[number:var(--paragraph-regular-xsmall-font-weight)] text-base-content-medium-emphasis text-[length:var(--paragraph-regular-xsmall-font-size)] tracking-[var(--paragraph-regular-xsmall-letter-spacing)] leading-[var(--paragraph-regular-xsmall-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-xsmall-font-style)]",
+                                                            className: "text-wrapper-9",
                                                             children: "Main Focus"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 169,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 212,
+                                                    lineNumber: 162,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center gap-[8px] relative flex-[0_0_auto]",
+                                                    className: "frame-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit mt-[-1.00px] font-heading-heading-4 font-[number:var(--heading-heading-4-font-weight)] text-base-content-high-emphasis text-[length:var(--heading-heading-4-font-size)] tracking-[var(--heading-heading-4-letter-spacing)] leading-[var(--heading-heading-4-line-height)] whitespace-nowrap [font-style:var(--heading-heading-4-font-style)]",
+                                                            className: "text-wrapper-10",
                                                             children: "Main Focus List"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 172,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconRegular.IconRegular), {
-                                                            className: "!flex-[0_0_auto]",
+                                                            className: "design-component-instance-node",
                                                             size: "regular",
                                                             stateProp: "normal"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 173,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 171,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 161,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex items-center justify-center gap-[12px] relative flex-[0_0_auto]",
+                                            className: "frame-13",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _btnTerciary.BtnTerciary), {
-                                                    className: "!flex-[0_0_auto]",
+                                                    className: "design-component-instance-node",
                                                     prop: "Share",
                                                     stateProp: "normal"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 177,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _btnTerciary.BtnTerciary), {
-                                                    className: "!flex-[0_0_auto]",
-                                                    icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconWorkflowSquare08.IconWorkflowSquare08), {
-                                                        className: "!relative !w-[20px] !h-[20px] !mt-[-4.00px] !mb-[-4.00px]"
+                                                    className: "design-component-instance-node",
+                                                    icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconWorkflowSquare081.IconWorkflowSquare081), {
+                                                        className: "icon-instance-node-3"
                                                     }, void 0, false, void 0, void 0),
                                                     prop: "Workflow",
                                                     stateProp: "normal"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 246,
+                                                    lineNumber: 178,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _btnTerciary.BtnTerciary), {
-                                                    className: "!flex-[0_0_auto]",
-                                                    icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFileExport.IconFileExport), {
-                                                        className: "!relative !w-[20px] !h-[20px] !mt-[-4.00px] !mb-[-4.00px]"
+                                                    className: "design-component-instance-node",
+                                                    icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFileExport1.IconFileExport1), {
+                                                        className: "icon-instance-node-3"
                                                     }, void 0, false, void 0, void 0),
                                                     prop: "Export",
                                                     stateProp: "normal"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 254,
+                                                    lineNumber: 184,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                                    className: "inline-flex h-[34px] items-center justify-center gap-[4px] pl-[8px] pr-[12px] py-[12px] relative flex-[0_0_auto] mt-[-1.00px] mb-[-1.00px] mr-[-1.00px] bg-base-primary-accent rounded-[8px] overflow-hidden border border-solid border-[#744eb4] shadow-button-btn-primary all-[unset] box-border",
+                                                    className: "button",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconAdd011.IconAdd011), {
-                                                            className: "!relative !w-[20px] !h-[20px] !mt-[-6.00px] !mb-[-4.00px]",
+                                                            className: "icon-add",
                                                             color: "white"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 191,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit mt-[-6.00px] mb-[-4.00px] font-paragraph-bold-small-bold font-[number:var(--paragraph-bold-small-bold-font-weight)] text-primitives-neutral-white text-[length:var(--paragraph-bold-small-bold-font-size)] tracking-[var(--paragraph-bold-small-bold-letter-spacing)] leading-[var(--paragraph-bold-small-bold-line-height)] whitespace-nowrap [font-style:var(--paragraph-bold-small-bold-font-style)]",
+                                                            className: "text-wrapper-11",
                                                             children: "Task"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 192,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 190,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 240,
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 160,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex h-[40px] items-center justify-between px-[40px] py-0 relative self-stretch w-full border-b [border-bottom-style:solid] border-base-border-border-primary",
+                                    className: "views-bar",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex items-center justify-center gap-[12px] relative self-stretch flex-[0_0_auto]",
+                                            className: "frame-14",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center justify-center gap-[8px] px-0 py-[8px] relative self-stretch flex-[0_0_auto]",
+                                                    className: "frame-15",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash.IconLeftToRightListDash), {
-                                                            className: "!relative !w-[20px] !h-[20px]",
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLeftToRightListDash3.IconLeftToRightListDash3), {
+                                                            className: "icon-instance-node",
                                                             color: "#8C51ED"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 276,
+                                                            lineNumber: 199,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit font-paragraph-bold-small-bold font-[number:var(--paragraph-bold-small-bold-font-weight)] text-base-primary-accent text-[length:var(--paragraph-bold-small-bold-font-size)] tracking-[var(--paragraph-bold-small-bold-letter-spacing)] leading-[var(--paragraph-bold-small-bold-line-height)] whitespace-nowrap [font-style:var(--paragraph-bold-small-bold-font-style)]",
+                                                            className: "text-wrapper-12",
                                                             children: "Grid"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 200,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill.IconArrowDown01Fill), {
-                                                            className: "!relative !w-[20px] !h-[20px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill4.IconArrowDown01Fill4), {
+                                                            className: "icon-instance-node"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 283,
+                                                            lineNumber: 201,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                            className: "absolute w-[85px] h-[2px] top-[38px] left-0 object-cover",
+                                                            className: "active-line",
                                                             alt: "Active line",
                                                             src: (0, _activeLineSvgDefault.default)
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 202,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 198,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center justify-center gap-[8px] px-0 py-[8px] relative self-stretch flex-[0_0_auto]",
+                                                    className: "frame-15",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLayout3Column.IconLayout3Column), {
-                                                            className: "!relative !w-[20px] !h-[20px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconLayout3Column1.IconLayout3Column1), {
+                                                            className: "icon-instance-node"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 209,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-small-font-style)]",
+                                                            className: "text-wrapper-13",
                                                             children: "Board"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 292,
+                                                            lineNumber: 210,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill.IconArrowDown01Fill), {
-                                                            className: "!relative !w-[20px] !h-[20px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill4.IconArrowDown01Fill4), {
+                                                            className: "icon-instance-node"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 295,
+                                                            lineNumber: 211,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 208,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center justify-center gap-[8px] px-0 py-[8px] relative self-stretch flex-[0_0_auto]",
+                                                    className: "frame-15",
                                                     children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconCalendar03.IconCalendar03), {
-                                                            className: "!relative !w-[20px] !h-[20px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconCalendar031.IconCalendar031), {
+                                                            className: "icon-instance-node"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 298,
+                                                            lineNumber: 214,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "relative w-fit font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-high-emphasis text-[length:var(--paragraph-regular-small-font-size)] tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-small-font-style)]",
+                                                            className: "text-wrapper-13",
                                                             children: "Calendar"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 299,
+                                                            lineNumber: 215,
                                                             columnNumber: 21
                                                         }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill.IconArrowDown01Fill), {
-                                                            className: "!relative !w-[20px] !h-[20px]"
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconArrowDown01Fill4.IconArrowDown01Fill4), {
+                                                            className: "icon-instance-node"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/ListView/ListView.tsx",
-                                                            lineNumber: 302,
+                                                            lineNumber: 216,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 297,
+                                                    lineNumber: 213,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 274,
+                                            lineNumber: 197,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconRegular.IconRegular), {
-                                            className: "!flex-[0_0_auto]",
-                                            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFloppyDisk.IconFloppyDisk), {
-                                                className: "!relative !w-[20px] !h-[20px]"
+                                            className: "design-component-instance-node",
+                                            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconFloppyDisk1.IconFloppyDisk1), {
+                                                className: "icon-instance-node"
                                             }, void 0, false, void 0, void 0),
                                             size: "regular",
                                             stateProp: "normal"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 219,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 273,
+                                    lineNumber: 196,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ListView/ListView.tsx",
-                            lineNumber: 209,
+                            lineNumber: 159,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex w-[1442px] h-[50px] items-center justify-between px-[16px] py-[8px] absolute top-0 left-0 bg-white border-b [border-bottom-style:solid] border-base-border-border-primary",
+                            className: "frame-16",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "inline-flex items-center gap-[10px] relative flex-[0_0_auto]",
+                                    className: "frame-17",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logo.Logo), {
-                                            className: "!h-[29.75px] !mt-[-0.88px] !ml-[-0.88px] !mb-[-0.88px] !w-[29.75px]"
+                                            className: "logo-instance"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 317,
+                                            lineNumber: 229,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative w-fit [font-family:'Inter',Helvetica] font-semibold text-[#8912fe] text-[12px] tracking-[-0.10px] leading-[16.8px] whitespace-nowrap",
+                                            className: "text-wrapper-14",
                                             children: "Atavya"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 230,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 316,
+                                    lineNumber: 228,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "inline-flex items-center gap-[22px] relative flex-[0_0_auto]",
+                                    className: "frame-18",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex items-center gap-[8px] relative flex-[0_0_auto]",
+                                            className: "frame-2",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex w-[36px] h-[24px] items-center gap-[8px] p-[4px] relative mt-[-2.00px] mb-[-2.00px] ml-[-2.00px] bg-base-border-border-primary rounded-[999px] overflow-hidden border border-solid shadow-[0px_2px_2px_#1721460d,inset_0px_-1px_4px_#0000000d,inset_0px_0px_0px_2px_#ffffff] border-base-border-border-primary",
+                                                    className: "toggle",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "relative w-[12px] h-[12px] mt-[-1.00px] ml-[-1.00px] bg-primitives-neutral-white rounded-[999px] shadow-[1px_1px_1px_#00000005]"
+                                                        className: "frame-19"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/ListView/ListView.tsx",
-                                                        lineNumber: 325,
+                                                        lineNumber: 235,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 324,
+                                                    lineNumber: 234,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "relative w-fit font-paragraph-regular-xsmall font-[number:var(--paragraph-regular-xsmall-font-weight)] text-base-content-medium-emphasis text-[length:var(--paragraph-regular-xsmall-font-size)] tracking-[var(--paragraph-regular-xsmall-letter-spacing)] leading-[var(--paragraph-regular-xsmall-line-height)] whitespace-nowrap [font-style:var(--paragraph-regular-xsmall-font-style)]",
+                                                    className: "text-wrapper-15",
                                                     children: "Focus"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 327,
+                                                    lineNumber: 237,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 233,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex h-[34px] items-center justify-center gap-[8px] pl-[8px] pr-[12px] py-[12px] relative flex-[0_0_auto] mt-[-1.00px] mb-[-1.00px] bg-white rounded-[8px] overflow-hidden border border-solid border-base-border-border-primary shadow-[inset_0px_-1px_4px_#0000000d]",
+                                            className: "frame-20",
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconAdd011.IconAdd011), {
-                                                    className: "!relative !w-[20px] !h-[20px] !mt-[-6.00px] !mb-[-4.00px]",
+                                                    className: "icon-add",
                                                     color: "#8C51ED"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 332,
+                                                    lineNumber: 240,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "relative w-fit mt-[-6.00px] mb-[-4.00px] font-paragraph-bold-small-bold font-[number:var(--paragraph-bold-small-bold-font-weight)] text-base-primary-accent text-[length:var(--paragraph-bold-small-bold-font-size)] tracking-[var(--paragraph-bold-small-bold-letter-spacing)] leading-[var(--paragraph-bold-small-bold-line-height)] whitespace-nowrap [font-style:var(--paragraph-bold-small-bold-font-style)]",
+                                                    className: "text-wrapper-16",
                                                     children: "New"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ListView/ListView.tsx",
-                                                    lineNumber: 336,
+                                                    lineNumber: 241,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 239,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bell.Bell), {
-                                            className: "!relative !w-[20px] !h-[20px]",
+                                            className: "icon-instance-node",
                                             color: "#8C8EA5"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 340,
+                                            lineNumber: 243,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative w-[34.29px] h-[34.29px] mt-[-1.14px] mb-[-1.14px] mr-[-1.14px] rounded-[940.24px] overflow-hidden border-[1.14px] border-solid border-[#7bbd6b] shadow-[inset_0px_0px_0px_#ffffff]",
+                                            className: "ellipse-wrapper",
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                className: "absolute w-[30px] h-[30px] top-px left-px object-cover",
+                                                className: "ellipse",
                                                 alt: "Ellipse",
                                                 src: (0, _ellipse22XPngDefault.default)
                                             }, void 0, false, {
                                                 fileName: "src/screens/ListView/ListView.tsx",
-                                                lineNumber: 345,
+                                                lineNumber: 245,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 244,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 232,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex w-[406px] h-[30px] items-center justify-center gap-[8px] px-[8px] py-[12px] absolute top-[9px] left-[517px] bg-primitives-neutral-white rounded-[8px] overflow-hidden border border-solid border-base-border-border-primary",
+                                    className: "frame-21",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _weightRegular.WeightRegular), {
-                                            className: "!relative !w-[20px] !h-[20px] !mt-[-8.00px] !mb-[-6.00px]",
+                                            className: "magnifying-glass",
                                             color: "#8C8EA5"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 353,
+                                            lineNumber: 249,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "relative flex-1 mt-[-8.00px] mb-[-6.00px] font-paragraph-regular-small font-[number:var(--paragraph-regular-small-font-weight)] text-base-content-low-emphasis text-[length:var(--paragraph-regular-small-font-size)] text-center tracking-[var(--paragraph-regular-small-letter-spacing)] leading-[var(--paragraph-regular-small-line-height)] [font-style:var(--paragraph-regular-small-font-style)]",
+                                            className: "p",
                                             children: "Search for lists, tasks or files"
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 357,
+                                            lineNumber: 250,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "relative flex-[0_0_auto] mt-[-8.00px] mb-[-6.00px]",
+                                            className: "frame-22",
                                             alt: "Frame",
                                             src: (0, _frame1597878361SvgDefault.default)
                                         }, void 0, false, {
                                             fileName: "src/screens/ListView/ListView.tsx",
-                                            lineNumber: 360,
+                                            lineNumber: 251,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/ListView/ListView.tsx",
-                                    lineNumber: 352,
+                                    lineNumber: 248,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ListView/ListView.tsx",
-                            lineNumber: 315,
+                            lineNumber: 227,
                             columnNumber: 13
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/ListView/ListView.tsx",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 11
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/ListView/ListView.tsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "src/screens/ListView/ListView.tsx",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/ListView/ListView.tsx",
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 5
     }, undefined);
 };
@@ -28292,7 +28273,7 @@ $RefreshReg$(_c, "ListView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/BtnTerciary":"63CKC","../../components/IconRegular":"hvm1d","../../components/Logo":"6TZrQ","../../icons/Bell":"eAxDe","../../icons/IconAdd011":"2GThs","../../icons/IconAnalytics01":"hwiiw","../../icons/IconArchive02":"9cx9F","../../icons/IconArrowDown01Fill":"9vIPc","../../icons/IconArrowLeft03Sharp":"67dAu","../../icons/IconArrowRight01Sharp":"l8bal","../../icons/IconBuilding03":"1IM40","../../icons/IconCalendar03":"7cOa3","../../icons/IconContact01":"5vfXD","../../icons/IconFile01":"g0b8u","../../icons/IconFileExport":"kQnjl","../../icons/IconFloppyDisk":"fu4On","../../icons/IconInbox":"ljRi5","../../icons/IconLayout3Column":"d0H1W","../../icons/IconLeftToRightListDash":"iCMCJ","../../icons/IconLeftToRightListTriangle":"AwYiv","../../icons/IconMessage01":"0532m","../../icons/IconSetting01":"8cEjI","../../icons/IconShare02":"iWkBR","../../icons/IconTarget01":"evjZ8","../../icons/IconWorkflowSquare08":"aJzQe","../../icons/WeightRegular":"lyOmt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../images/vector-7304.svg":"l53GU","../../images/subtract-2.svg":"fCnBV","../../images/subtract-1.svg":"jmqWt","../../images/subtract.svg":"8mB0u","../../images/active-line.svg":"6FriY","../../images/ellipse-2@2x.png":"izVIX","../../images/frame-1597878361.svg":"j27RN"}],"63CKC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/BtnTerciary":"63CKC","../../components/IconRegular":"hvm1d","../../components/Logo":"6TZrQ","../../icons/Bell":"eAxDe","../../icons/IconAdd011":"2GThs","../../icons/IconAnalytics011":"32OHk","../../icons/IconArchive021":"4fkiG","../../icons/IconArrowDown01Fill4":"iplXh","../../icons/IconArrowLeft03Sharp1":"evSVw","../../icons/IconArrowRight01Sharp3":"9mbFA","../../icons/IconBuilding031":"gZUa8","../../icons/IconCalendar031":"jAxVX","../../icons/IconContact011":"5FYDF","../../icons/IconFile011":"jbf6j","../../icons/IconFileExport1":"jyipw","../../icons/IconFloppyDisk1":"huYsb","../../icons/IconInbox1":"5hMF0","../../icons/IconLayout3Column1":"1m1q3","../../icons/IconLeftToRightListDash3":"hfcqM","../../icons/IconLeftToRightListTriangle1":"8PyI4","../../icons/IconMessage011":"hV9cu","../../icons/IconSetting011":"cSjMa","../../icons/IconShare021":"d9XO0","../../icons/IconTarget011":"861CK","../../icons/IconWorkflowSquare081":"hm7av","../../icons/WeightRegular":"lyOmt","./style.css":"d7GLg","../../images/subtract-2.svg":"fCnBV","../../images/subtract-1.svg":"jmqWt","../../images/subtract.svg":"8mB0u","../../images/active-line.svg":"6FriY","../../images/ellipse-2@2x.png":"izVIX","../../images/frame-1597878361.svg":"j27RN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"63CKC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "BtnTerciary", ()=>(0, _btnTerciary.BtnTerciary));
@@ -28312,15 +28293,18 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "BtnTerciary", ()=>BtnTerciary);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _iconShare082 = require("../../icons/IconShare082");
+var _iconShare081 = require("../../icons/IconShare081");
+var _styleCss = require("./style.css");
 var _s = $RefreshSig$();
-const BtnTerciary = ({ prop = "Label", stateProp, className, icon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconShare082.IconShare082), {
-    className: "!relative !w-[20px] !h-[20px] !mt-[-4.00px] !mb-[-4.00px]"
+const BtnTerciary = ({ prop = "Label", stateProp, className, icon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconShare081.IconShare081), {
+    className: "icon-share"
 }, void 0, false, {
     fileName: "src/components/BtnTerciary/BtnTerciary.tsx",
-    lineNumber: 21,
+    lineNumber: 23,
     columnNumber: 10
 }, undefined) })=>{
     _s();
@@ -28328,7 +28312,7 @@ const BtnTerciary = ({ prop = "Label", stateProp, className, icon = /*#__PURE__*
         state: stateProp || "normal"
     });
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `inline-flex items-center gap-[8px] p-[8px] h-[28px] rounded-[8px] justify-center relative ${state.state === "hover" ? "bg-primitives-midnight-midnight-100" : ""} ${className}`,
+        className: `btn-terciary state-${state.state} ${className}`,
         onMouseLeave: ()=>{
             dispatch("mouse_leave");
         },
@@ -28338,7 +28322,7 @@ const BtnTerciary = ({ prop = "Label", stateProp, className, icon = /*#__PURE__*
         children: [
             icon,
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "font-paragraph-regular-small w-fit mt-[-5.00px] tracking-[var(--paragraph-regular-small-letter-spacing)] text-[length:var(--paragraph-regular-small-font-size)] [font-style:var(--paragraph-regular-small-font-style)] text-base-content-medium-emphasis font-[number:var(--paragraph-regular-small-font-weight)] leading-[var(--paragraph-regular-small-line-height)] whitespace-nowrap mb-[-3.00px] relative",
+                className: "label",
                 children: prop
             }, void 0, false, {
                 fileName: "src/components/BtnTerciary/BtnTerciary.tsx",
@@ -28348,7 +28332,7 @@ const BtnTerciary = ({ prop = "Label", stateProp, className, icon = /*#__PURE__*
         ]
     }, void 0, true, {
         fileName: "src/components/BtnTerciary/BtnTerciary.tsx",
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 5
     }, undefined);
 };
@@ -28369,6 +28353,13 @@ function reducer(state, action) {
     }
     return state;
 }
+BtnTerciary.propTypes = {
+    prop: (0, _propTypesDefault.default).string,
+    stateProp: (0, _propTypesDefault.default).oneOf([
+        "hover",
+        "normal"
+    ])
+};
 var _c;
 $RefreshReg$(_c, "BtnTerciary");
 
@@ -28377,17 +28368,764 @@ $RefreshReg$(_c, "BtnTerciary");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/IconShare082":"rPge0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"rPge0":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","../../icons/IconShare081":"4ATQ7","./style.css":"ikLtg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ var ReactIs = require("96e34ae03f5a2631");
+// By explicitly using `prop-types` you are opting into new development behavior.
+// http://fb.me/prop-types-in-prod
+var throwOnDirectAccess = true;
+module.exports = require("cb216452e2171041")(ReactIs.isElement, throwOnDirectAccess);
+
+},{"96e34ae03f5a2631":"gfIo3","cb216452e2171041":"bBUgD"}],"gfIo3":[function(require,module,exports) {
+"use strict";
+module.exports = require("ad47820528c6facb");
+
+},{"ad47820528c6facb":"7GE9i"}],"7GE9i":[function(require,module,exports) {
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+    // nor polyfill, then a plain number is used for performance.
+    var hasSymbol = typeof Symbol === "function" && Symbol.for;
+    var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 0xeac7;
+    var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 0xeaca;
+    var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 0xeacb;
+    var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 0xeacc;
+    var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 0xead2;
+    var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 0xeacd;
+    var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+    // (unstable) APIs that have been removed. Can we remove the symbols?
+    var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 0xeacf;
+    var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 0xeacf;
+    var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 0xead0;
+    var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 0xead1;
+    var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 0xead8;
+    var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 0xead3;
+    var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 0xead4;
+    var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 0xead9;
+    var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 0xead5;
+    var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 0xead6;
+    var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 0xead7;
+    function isValidElementType(type) {
+        return typeof type === "string" || typeof type === "function" || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+        type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+    }
+    function typeOf(object) {
+        if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch($$typeof){
+                case REACT_ELEMENT_TYPE:
+                    var type = object.type;
+                    switch(type){
+                        case REACT_ASYNC_MODE_TYPE:
+                        case REACT_CONCURRENT_MODE_TYPE:
+                        case REACT_FRAGMENT_TYPE:
+                        case REACT_PROFILER_TYPE:
+                        case REACT_STRICT_MODE_TYPE:
+                        case REACT_SUSPENSE_TYPE:
+                            return type;
+                        default:
+                            var $$typeofType = type && type.$$typeof;
+                            switch($$typeofType){
+                                case REACT_CONTEXT_TYPE:
+                                case REACT_FORWARD_REF_TYPE:
+                                case REACT_LAZY_TYPE:
+                                case REACT_MEMO_TYPE:
+                                case REACT_PROVIDER_TYPE:
+                                    return $$typeofType;
+                                default:
+                                    return $$typeof;
+                            }
+                    }
+                case REACT_PORTAL_TYPE:
+                    return $$typeof;
+            }
+        }
+        return undefined;
+    } // AsyncMode is deprecated along with isAsyncMode
+    var AsyncMode = REACT_ASYNC_MODE_TYPE;
+    var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+    var ContextConsumer = REACT_CONTEXT_TYPE;
+    var ContextProvider = REACT_PROVIDER_TYPE;
+    var Element = REACT_ELEMENT_TYPE;
+    var ForwardRef = REACT_FORWARD_REF_TYPE;
+    var Fragment = REACT_FRAGMENT_TYPE;
+    var Lazy = REACT_LAZY_TYPE;
+    var Memo = REACT_MEMO_TYPE;
+    var Portal = REACT_PORTAL_TYPE;
+    var Profiler = REACT_PROFILER_TYPE;
+    var StrictMode = REACT_STRICT_MODE_TYPE;
+    var Suspense = REACT_SUSPENSE_TYPE;
+    var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+    function isAsyncMode(object) {
+        if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+            hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+            console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
+        }
+        return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+    }
+    function isConcurrentMode(object) {
+        return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+    }
+    function isContextConsumer(object) {
+        return typeOf(object) === REACT_CONTEXT_TYPE;
+    }
+    function isContextProvider(object) {
+        return typeOf(object) === REACT_PROVIDER_TYPE;
+    }
+    function isElement(object) {
+        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+    }
+    function isForwardRef(object) {
+        return typeOf(object) === REACT_FORWARD_REF_TYPE;
+    }
+    function isFragment(object) {
+        return typeOf(object) === REACT_FRAGMENT_TYPE;
+    }
+    function isLazy(object) {
+        return typeOf(object) === REACT_LAZY_TYPE;
+    }
+    function isMemo(object) {
+        return typeOf(object) === REACT_MEMO_TYPE;
+    }
+    function isPortal(object) {
+        return typeOf(object) === REACT_PORTAL_TYPE;
+    }
+    function isProfiler(object) {
+        return typeOf(object) === REACT_PROFILER_TYPE;
+    }
+    function isStrictMode(object) {
+        return typeOf(object) === REACT_STRICT_MODE_TYPE;
+    }
+    function isSuspense(object) {
+        return typeOf(object) === REACT_SUSPENSE_TYPE;
+    }
+    exports.AsyncMode = AsyncMode;
+    exports.ConcurrentMode = ConcurrentMode;
+    exports.ContextConsumer = ContextConsumer;
+    exports.ContextProvider = ContextProvider;
+    exports.Element = Element;
+    exports.ForwardRef = ForwardRef;
+    exports.Fragment = Fragment;
+    exports.Lazy = Lazy;
+    exports.Memo = Memo;
+    exports.Portal = Portal;
+    exports.Profiler = Profiler;
+    exports.StrictMode = StrictMode;
+    exports.Suspense = Suspense;
+    exports.isAsyncMode = isAsyncMode;
+    exports.isConcurrentMode = isConcurrentMode;
+    exports.isContextConsumer = isContextConsumer;
+    exports.isContextProvider = isContextProvider;
+    exports.isElement = isElement;
+    exports.isForwardRef = isForwardRef;
+    exports.isFragment = isFragment;
+    exports.isLazy = isLazy;
+    exports.isMemo = isMemo;
+    exports.isPortal = isPortal;
+    exports.isProfiler = isProfiler;
+    exports.isStrictMode = isStrictMode;
+    exports.isSuspense = isSuspense;
+    exports.isValidElementType = isValidElementType;
+    exports.typeOf = typeOf;
+})();
+
+},{}],"bBUgD":[function(require,module,exports) {
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+var ReactIs = require("c437388b089702c3");
+var assign = require("c067a60101d8520c");
+var ReactPropTypesSecret = require("74a0f89a70b9f3c2");
+var has = require("18441b11647bc78");
+var checkPropTypes = require("bec3f6ff89f0b072");
+var printWarning = function() {};
+printWarning = function(text) {
+    var message = "Warning: " + text;
+    if (typeof console !== "undefined") console.error(message);
+    try {
+        // --- Welcome to debugging React ---
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+    } catch (x) {}
+};
+function emptyFunctionThatReturnsNull() {
+    return null;
+}
+module.exports = function(isValidElement, throwOnDirectAccess) {
+    /* global Symbol */ var ITERATOR_SYMBOL = typeof Symbol === "function" && Symbol.iterator;
+    var FAUX_ITERATOR_SYMBOL = "@@iterator"; // Before Symbol spec.
+    /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */ function getIteratorFn(maybeIterable) {
+        var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+        if (typeof iteratorFn === "function") return iteratorFn;
+    }
+    /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */ var ANONYMOUS = "<<anonymous>>";
+    // Important!
+    // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+    var ReactPropTypes = {
+        array: createPrimitiveTypeChecker("array"),
+        bigint: createPrimitiveTypeChecker("bigint"),
+        bool: createPrimitiveTypeChecker("boolean"),
+        func: createPrimitiveTypeChecker("function"),
+        number: createPrimitiveTypeChecker("number"),
+        object: createPrimitiveTypeChecker("object"),
+        string: createPrimitiveTypeChecker("string"),
+        symbol: createPrimitiveTypeChecker("symbol"),
+        any: createAnyTypeChecker(),
+        arrayOf: createArrayOfTypeChecker,
+        element: createElementTypeChecker(),
+        elementType: createElementTypeTypeChecker(),
+        instanceOf: createInstanceTypeChecker,
+        node: createNodeChecker(),
+        objectOf: createObjectOfTypeChecker,
+        oneOf: createEnumTypeChecker,
+        oneOfType: createUnionTypeChecker,
+        shape: createShapeTypeChecker,
+        exact: createStrictShapeTypeChecker
+    };
+    /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */ /*eslint-disable no-self-compare*/ function is(x, y) {
+        // SameValue algorithm
+        if (x === y) // Steps 1-5, 7-10
+        // Steps 6.b-6.e: +0 != -0
+        return x !== 0 || 1 / x === 1 / y;
+        else // Step 6.a: NaN == NaN
+        return x !== x && y !== y;
+    }
+    /*eslint-enable no-self-compare*/ /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */ function PropTypeError(message, data) {
+        this.message = message;
+        this.data = data && typeof data === "object" ? data : {};
+        this.stack = "";
+    }
+    // Make `instanceof Error` still work for returned errors.
+    PropTypeError.prototype = Error.prototype;
+    function createChainableTypeChecker(validate) {
+        var manualPropTypeCallCache = {};
+        var manualPropTypeWarningCount = 0;
+        function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+            componentName = componentName || ANONYMOUS;
+            propFullName = propFullName || propName;
+            if (secret !== ReactPropTypesSecret) {
+                if (throwOnDirectAccess) {
+                    // New behavior only for users of `prop-types` package
+                    var err = new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types");
+                    err.name = "Invariant Violation";
+                    throw err;
+                } else if (typeof console !== "undefined") {
+                    // Old behavior for people using React.PropTypes
+                    var cacheKey = componentName + ":" + propName;
+                    if (!manualPropTypeCallCache[cacheKey] && // Avoid spamming the console because they are often not actionable except for lib authors
+                    manualPropTypeWarningCount < 3) {
+                        printWarning("You are manually calling a React.PropTypes validation function for the `" + propFullName + "` prop on `" + componentName + "`. This is deprecated " + "and will throw in the standalone `prop-types` package. " + "You may be seeing this warning due to a third-party PropTypes " + "library. See https://fb.me/react-warning-dont-call-proptypes " + "for details.");
+                        manualPropTypeCallCache[cacheKey] = true;
+                        manualPropTypeWarningCount++;
+                    }
+                }
+            }
+            if (props[propName] == null) {
+                if (isRequired) {
+                    if (props[propName] === null) return new PropTypeError("The " + location + " `" + propFullName + "` is marked as required " + ("in `" + componentName + "`, but its value is `null`."));
+                    return new PropTypeError("The " + location + " `" + propFullName + "` is marked as required in " + ("`" + componentName + "`, but its value is `undefined`."));
+                }
+                return null;
+            } else return validate(props, propName, componentName, location, propFullName);
+        }
+        var chainedCheckType = checkType.bind(null, false);
+        chainedCheckType.isRequired = checkType.bind(null, true);
+        return chainedCheckType;
+    }
+    function createPrimitiveTypeChecker(expectedType) {
+        function validate(props, propName, componentName, location, propFullName, secret) {
+            var propValue = props[propName];
+            var propType = getPropType(propValue);
+            if (propType !== expectedType) {
+                // `propValue` being instance of, say, date/regexp, pass the 'object'
+                // check, but we can offer a more precise error message here rather than
+                // 'of type `object`'.
+                var preciseType = getPreciseType(propValue);
+                return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + preciseType + "` supplied to `" + componentName + "`, expected ") + ("`" + expectedType + "`."), {
+                    expectedType: expectedType
+                });
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createAnyTypeChecker() {
+        return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+    }
+    function createArrayOfTypeChecker(typeChecker) {
+        function validate(props, propName, componentName, location, propFullName) {
+            if (typeof typeChecker !== "function") return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside arrayOf.");
+            var propValue = props[propName];
+            if (!Array.isArray(propValue)) {
+                var propType = getPropType(propValue);
+                return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + propType + "` supplied to `" + componentName + "`, expected an array."));
+            }
+            for(var i = 0; i < propValue.length; i++){
+                var error = typeChecker(propValue, i, componentName, location, propFullName + "[" + i + "]", ReactPropTypesSecret);
+                if (error instanceof Error) return error;
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createElementTypeChecker() {
+        function validate(props, propName, componentName, location, propFullName) {
+            var propValue = props[propName];
+            if (!isValidElement(propValue)) {
+                var propType = getPropType(propValue);
+                return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + propType + "` supplied to `" + componentName + "`, expected a single ReactElement."));
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createElementTypeTypeChecker() {
+        function validate(props, propName, componentName, location, propFullName) {
+            var propValue = props[propName];
+            if (!ReactIs.isValidElementType(propValue)) {
+                var propType = getPropType(propValue);
+                return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + propType + "` supplied to `" + componentName + "`, expected a single ReactElement type."));
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createInstanceTypeChecker(expectedClass) {
+        function validate(props, propName, componentName, location, propFullName) {
+            if (!(props[propName] instanceof expectedClass)) {
+                var expectedClassName = expectedClass.name || ANONYMOUS;
+                var actualClassName = getClassName(props[propName]);
+                return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + actualClassName + "` supplied to `" + componentName + "`, expected ") + ("instance of `" + expectedClassName + "`."));
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createEnumTypeChecker(expectedValues) {
+        if (!Array.isArray(expectedValues)) {
+            {
+                if (arguments.length > 1) printWarning("Invalid arguments supplied to oneOf, expected an array, got " + arguments.length + " arguments. " + "A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z]).");
+                else printWarning("Invalid argument supplied to oneOf, expected an array.");
+            }
+            return emptyFunctionThatReturnsNull;
+        }
+        function validate(props, propName, componentName, location, propFullName) {
+            var propValue = props[propName];
+            for(var i = 0; i < expectedValues.length; i++){
+                if (is(propValue, expectedValues[i])) return null;
+            }
+            var valuesString = JSON.stringify(expectedValues, function replacer(key, value) {
+                var type = getPreciseType(value);
+                if (type === "symbol") return String(value);
+                return value;
+            });
+            return new PropTypeError("Invalid " + location + " `" + propFullName + "` of value `" + String(propValue) + "` " + ("supplied to `" + componentName + "`, expected one of " + valuesString + "."));
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createObjectOfTypeChecker(typeChecker) {
+        function validate(props, propName, componentName, location, propFullName) {
+            if (typeof typeChecker !== "function") return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside objectOf.");
+            var propValue = props[propName];
+            var propType = getPropType(propValue);
+            if (propType !== "object") return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type " + ("`" + propType + "` supplied to `" + componentName + "`, expected an object."));
+            for(var key in propValue)if (has(propValue, key)) {
+                var error = typeChecker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                if (error instanceof Error) return error;
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createUnionTypeChecker(arrayOfTypeCheckers) {
+        if (!Array.isArray(arrayOfTypeCheckers)) {
+            printWarning("Invalid argument supplied to oneOfType, expected an instance of array.");
+            return emptyFunctionThatReturnsNull;
+        }
+        for(var i = 0; i < arrayOfTypeCheckers.length; i++){
+            var checker = arrayOfTypeCheckers[i];
+            if (typeof checker !== "function") {
+                printWarning("Invalid argument supplied to oneOfType. Expected an array of check functions, but received " + getPostfixForTypeWarning(checker) + " at index " + i + ".");
+                return emptyFunctionThatReturnsNull;
+            }
+        }
+        function validate(props, propName, componentName, location, propFullName) {
+            var expectedTypes = [];
+            for(var i = 0; i < arrayOfTypeCheckers.length; i++){
+                var checker = arrayOfTypeCheckers[i];
+                var checkerResult = checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret);
+                if (checkerResult == null) return null;
+                if (checkerResult.data && has(checkerResult.data, "expectedType")) expectedTypes.push(checkerResult.data.expectedType);
+            }
+            var expectedTypesMessage = expectedTypes.length > 0 ? ", expected one of type [" + expectedTypes.join(", ") + "]" : "";
+            return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to " + ("`" + componentName + "`" + expectedTypesMessage + "."));
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createNodeChecker() {
+        function validate(props, propName, componentName, location, propFullName) {
+            if (!isNode(props[propName])) return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to " + ("`" + componentName + "`, expected a ReactNode."));
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function invalidValidatorError(componentName, location, propFullName, key, type) {
+        return new PropTypeError((componentName || "React class") + ": " + location + " type `" + propFullName + "." + key + "` is invalid; " + "it must be a function, usually from the `prop-types` package, but received `" + type + "`.");
+    }
+    function createShapeTypeChecker(shapeTypes) {
+        function validate(props, propName, componentName, location, propFullName) {
+            var propValue = props[propName];
+            var propType = getPropType(propValue);
+            if (propType !== "object") return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + propType + "` " + ("supplied to `" + componentName + "`, expected `object`."));
+            for(var key in shapeTypes){
+                var checker = shapeTypes[key];
+                if (typeof checker !== "function") return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
+                var error = checker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                if (error) return error;
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function createStrictShapeTypeChecker(shapeTypes) {
+        function validate(props, propName, componentName, location, propFullName) {
+            var propValue = props[propName];
+            var propType = getPropType(propValue);
+            if (propType !== "object") return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + propType + "` " + ("supplied to `" + componentName + "`, expected `object`."));
+            // We need to check all keys in case some are required but missing from props.
+            var allKeys = assign({}, props[propName], shapeTypes);
+            for(var key in allKeys){
+                var checker = shapeTypes[key];
+                if (has(shapeTypes, key) && typeof checker !== "function") return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
+                if (!checker) return new PropTypeError("Invalid " + location + " `" + propFullName + "` key `" + key + "` supplied to `" + componentName + "`." + "\nBad object: " + JSON.stringify(props[propName], null, "  ") + "\nValid keys: " + JSON.stringify(Object.keys(shapeTypes), null, "  "));
+                var error = checker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                if (error) return error;
+            }
+            return null;
+        }
+        return createChainableTypeChecker(validate);
+    }
+    function isNode(propValue) {
+        switch(typeof propValue){
+            case "number":
+            case "string":
+            case "undefined":
+                return true;
+            case "boolean":
+                return !propValue;
+            case "object":
+                if (Array.isArray(propValue)) return propValue.every(isNode);
+                if (propValue === null || isValidElement(propValue)) return true;
+                var iteratorFn = getIteratorFn(propValue);
+                if (iteratorFn) {
+                    var iterator = iteratorFn.call(propValue);
+                    var step;
+                    if (iteratorFn !== propValue.entries) while(!(step = iterator.next()).done){
+                        if (!isNode(step.value)) return false;
+                    }
+                    else // Iterator will provide entry [k,v] tuples rather than values.
+                    while(!(step = iterator.next()).done){
+                        var entry = step.value;
+                        if (entry) {
+                            if (!isNode(entry[1])) return false;
+                        }
+                    }
+                } else return false;
+                return true;
+            default:
+                return false;
+        }
+    }
+    function isSymbol(propType, propValue) {
+        // Native Symbol.
+        if (propType === "symbol") return true;
+        // falsy value can't be a Symbol
+        if (!propValue) return false;
+        // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+        if (propValue["@@toStringTag"] === "Symbol") return true;
+        // Fallback for non-spec compliant Symbols which are polyfilled.
+        if (typeof Symbol === "function" && propValue instanceof Symbol) return true;
+        return false;
+    }
+    // Equivalent of `typeof` but with special handling for array and regexp.
+    function getPropType(propValue) {
+        var propType = typeof propValue;
+        if (Array.isArray(propValue)) return "array";
+        if (propValue instanceof RegExp) // Old webkits (at least until Android 4.0) return 'function' rather than
+        // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+        // passes PropTypes.object.
+        return "object";
+        if (isSymbol(propType, propValue)) return "symbol";
+        return propType;
+    }
+    // This handles more types than `getPropType`. Only used for error messages.
+    // See `createPrimitiveTypeChecker`.
+    function getPreciseType(propValue) {
+        if (typeof propValue === "undefined" || propValue === null) return "" + propValue;
+        var propType = getPropType(propValue);
+        if (propType === "object") {
+            if (propValue instanceof Date) return "date";
+            else if (propValue instanceof RegExp) return "regexp";
+        }
+        return propType;
+    }
+    // Returns a string that is postfixed to a warning about an invalid type.
+    // For example, "undefined" or "of type array"
+    function getPostfixForTypeWarning(value) {
+        var type = getPreciseType(value);
+        switch(type){
+            case "array":
+            case "object":
+                return "an " + type;
+            case "boolean":
+            case "date":
+            case "regexp":
+                return "a " + type;
+            default:
+                return type;
+        }
+    }
+    // Returns class name of the object, if any.
+    function getClassName(propValue) {
+        if (!propValue.constructor || !propValue.constructor.name) return ANONYMOUS;
+        return propValue.constructor.name;
+    }
+    ReactPropTypes.checkPropTypes = checkPropTypes;
+    ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache;
+    ReactPropTypes.PropTypes = ReactPropTypes;
+    return ReactPropTypes;
+};
+
+},{"c437388b089702c3":"gfIo3","c067a60101d8520c":"7OXxh","74a0f89a70b9f3c2":"jZTZJ","18441b11647bc78":"fqKuf","bec3f6ff89f0b072":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/ "use strict";
+/* eslint-disable no-unused-vars */ var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var propIsEnumerable = Object.prototype.propertyIsEnumerable;
+function toObject(val) {
+    if (val === null || val === undefined) throw new TypeError("Object.assign cannot be called with null or undefined");
+    return Object(val);
+}
+function shouldUseNative() {
+    try {
+        if (!Object.assign) return false;
+        // Detect buggy property enumeration order in older V8 versions.
+        // https://bugs.chromium.org/p/v8/issues/detail?id=4118
+        var test1 = new String("abc"); // eslint-disable-line no-new-wrappers
+        test1[5] = "de";
+        if (Object.getOwnPropertyNames(test1)[0] === "5") return false;
+        // https://bugs.chromium.org/p/v8/issues/detail?id=3056
+        var test2 = {};
+        for(var i = 0; i < 10; i++)test2["_" + String.fromCharCode(i)] = i;
+        var order2 = Object.getOwnPropertyNames(test2).map(function(n) {
+            return test2[n];
+        });
+        if (order2.join("") !== "0123456789") return false;
+        // https://bugs.chromium.org/p/v8/issues/detail?id=3056
+        var test3 = {};
+        "abcdefghijklmnopqrst".split("").forEach(function(letter) {
+            test3[letter] = letter;
+        });
+        if (Object.keys(Object.assign({}, test3)).join("") !== "abcdefghijklmnopqrst") return false;
+        return true;
+    } catch (err) {
+        // We don't expect any of the above to throw, but better to be safe.
+        return false;
+    }
+}
+module.exports = shouldUseNative() ? Object.assign : function(target, source) {
+    var from;
+    var to = toObject(target);
+    var symbols;
+    for(var s = 1; s < arguments.length; s++){
+        from = Object(arguments[s]);
+        for(var key in from)if (hasOwnProperty.call(from, key)) to[key] = from[key];
+        if (getOwnPropertySymbols) {
+            symbols = getOwnPropertySymbols(from);
+            for(var i = 0; i < symbols.length; i++)if (propIsEnumerable.call(from, symbols[i])) to[symbols[i]] = from[symbols[i]];
+        }
+    }
+    return to;
+};
+
+},{}],"jZTZJ":[function(require,module,exports) {
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+var ReactPropTypesSecret = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
+module.exports = ReactPropTypesSecret;
+
+},{}],"fqKuf":[function(require,module,exports) {
+module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
+
+},{}],"5VwyJ":[function(require,module,exports) {
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+var printWarning = function() {};
+var ReactPropTypesSecret = require("24ba1e58d167a82c");
+var loggedTypeFailures = {};
+var has = require("898bc82f39d83f7c");
+printWarning = function(text) {
+    var message = "Warning: " + text;
+    if (typeof console !== "undefined") console.error(message);
+    try {
+        // --- Welcome to debugging React ---
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+    } catch (x) {}
+};
+/**
+ * Assert that the values match with the type specs.
+ * Error messages are memorized and will only be shown once.
+ *
+ * @param {object} typeSpecs Map of name to a ReactPropType
+ * @param {object} values Runtime values that need to be type-checked
+ * @param {string} location e.g. "prop", "context", "child context"
+ * @param {string} componentName Name of the component for error messages.
+ * @param {?Function} getStack Returns the component stack.
+ * @private
+ */ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+    for(var typeSpecName in typeSpecs)if (has(typeSpecs, typeSpecName)) {
+        var error;
+        // Prop type validation may throw. In case they do, we don't want to
+        // fail the render phase where it didn't fail before. So we log it.
+        // After these have been cleaned up, we'll let them throw.
+        try {
+            // This is intentionally an invariant that gets caught. It's the same
+            // behavior as without this statement except with a better message.
+            if (typeof typeSpecs[typeSpecName] !== "function") {
+                var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; " + "it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`." + "This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                err.name = "Invariant Violation";
+                throw err;
+            }
+            error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
+        } catch (ex) {
+            error = ex;
+        }
+        if (error && !(error instanceof Error)) printWarning((componentName || "React class") + ": type specification of " + location + " `" + typeSpecName + "` is invalid; the type checker " + "function must return `null` or an `Error` but returned a " + typeof error + ". " + "You may have forgotten to pass an argument to the type checker " + "creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and " + "shape all require an argument).");
+        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
+            // Only monitor this failure once because there tends to be a lot of the
+            // same error.
+            loggedTypeFailures[error.message] = true;
+            var stack = getStack ? getStack() : "";
+            printWarning("Failed " + location + " type: " + error.message + (stack != null ? stack : ""));
+        }
+    }
+}
+/**
+ * Resets warning cache when testing.
+ *
+ * @private
+ */ checkPropTypes.resetWarningCache = function() {
+    loggedTypeFailures = {};
+};
+module.exports = checkPropTypes;
+
+},{"24ba1e58d167a82c":"jZTZJ","898bc82f39d83f7c":"fqKuf"}],"4ATQ7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconShare082", ()=>(0, _iconShare082.IconShare082));
-var _iconShare082 = require("./IconShare082");
+parcelHelpers.export(exports, "IconShare081", ()=>(0, _iconShare081.IconShare081));
+var _iconShare081 = require("./IconShare081");
 
-},{"./IconShare082":"hinUt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hinUt":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5aae = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconShare081":"2ynqX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2ynqX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1176 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5aae.prelude(module);
+$parcel$ReactRefreshHelpers$1176.prelude(module);
 
 try {
 /*
@@ -28395,13 +29133,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconShare082", ()=>IconShare082);
+parcelHelpers.export(exports, "IconShare081", ()=>IconShare081);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconShare082 = ({ className })=>{
+const IconShare081 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-share-08-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -28409,53 +29147,57 @@ const IconShare082 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M17.5 5.41669C17.5 6.7974 16.3807 7.91669 15 7.91669C13.6193 7.91669 12.5 6.7974 12.5 5.41669C12.5 4.03597 13.6193 2.91669 15 2.91669C16.3807 2.91669 17.5 4.03597 17.5 5.41669Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare082/IconShare082.tsx",
+                fileName: "src/icons/IconShare081/IconShare081.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 10C7.5 11.3807 6.38071 12.5 5 12.5C3.61929 12.5 2.5 11.3807 2.5 10C2.5 8.61929 3.61929 7.5 5 7.5C6.38071 7.5 7.5 8.61929 7.5 10Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare082/IconShare082.tsx",
-                lineNumber: 27,
+                fileName: "src/icons/IconShare081/IconShare081.tsx",
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M17.5 14.5834C17.5 15.9641 16.3807 17.0834 15 17.0834C13.6193 17.0834 12.5 15.9641 12.5 14.5834C12.5 13.2027 13.6193 12.0834 15 12.0834C16.3807 12.0834 17.5 13.2027 17.5 14.5834Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare082/IconShare082.tsx",
-                lineNumber: 32,
+                fileName: "src/icons/IconShare081/IconShare081.tsx",
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.27377 8.95817L12.6904 6.45862M7.27377 11.042L12.6904 13.5415",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare082/IconShare082.tsx",
-                lineNumber: 37,
+                fileName: "src/icons/IconShare081/IconShare081.tsx",
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconShare082/IconShare082.tsx",
+        fileName: "src/icons/IconShare081/IconShare081.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconShare082;
+_c = IconShare081;
 var _c;
-$RefreshReg$(_c, "IconShare082");
+$RefreshReg$(_c, "IconShare081");
 
-  $parcel$ReactRefreshHelpers$5aae.postlude(module);
+  $parcel$ReactRefreshHelpers$1176.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -28628,7 +29370,471 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"hvm1d":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"jEdJI"}],"jEdJI":[function(require,module,exports) {
+"use strict";
+module.exports = require("9e039173d01172ab");
+
+},{"9e039173d01172ab":"uTjV2"}],"uTjV2":[function(require,module,exports) {
+/** @license React v0.9.0
+ * react-refresh-runtime.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    // ATTENTION
+    // When adding new symbols to this file,
+    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+    // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+    // nor polyfill, then a plain number is used for performance.
+    var REACT_ELEMENT_TYPE = 0xeac7;
+    var REACT_PORTAL_TYPE = 0xeaca;
+    var REACT_FRAGMENT_TYPE = 0xeacb;
+    var REACT_STRICT_MODE_TYPE = 0xeacc;
+    var REACT_PROFILER_TYPE = 0xead2;
+    var REACT_PROVIDER_TYPE = 0xeacd;
+    var REACT_CONTEXT_TYPE = 0xeace;
+    var REACT_FORWARD_REF_TYPE = 0xead0;
+    var REACT_SUSPENSE_TYPE = 0xead1;
+    var REACT_SUSPENSE_LIST_TYPE = 0xead8;
+    var REACT_MEMO_TYPE = 0xead3;
+    var REACT_LAZY_TYPE = 0xead4;
+    var REACT_BLOCK_TYPE = 0xead9;
+    var REACT_SERVER_BLOCK_TYPE = 0xeada;
+    var REACT_FUNDAMENTAL_TYPE = 0xead5;
+    var REACT_SCOPE_TYPE = 0xead7;
+    var REACT_OPAQUE_ID_TYPE = 0xeae0;
+    var REACT_DEBUG_TRACING_MODE_TYPE = 0xeae1;
+    var REACT_OFFSCREEN_TYPE = 0xeae2;
+    var REACT_LEGACY_HIDDEN_TYPE = 0xeae3;
+    if (typeof Symbol === "function" && Symbol.for) {
+        var symbolFor = Symbol.for;
+        REACT_ELEMENT_TYPE = symbolFor("react.element");
+        REACT_PORTAL_TYPE = symbolFor("react.portal");
+        REACT_FRAGMENT_TYPE = symbolFor("react.fragment");
+        REACT_STRICT_MODE_TYPE = symbolFor("react.strict_mode");
+        REACT_PROFILER_TYPE = symbolFor("react.profiler");
+        REACT_PROVIDER_TYPE = symbolFor("react.provider");
+        REACT_CONTEXT_TYPE = symbolFor("react.context");
+        REACT_FORWARD_REF_TYPE = symbolFor("react.forward_ref");
+        REACT_SUSPENSE_TYPE = symbolFor("react.suspense");
+        REACT_SUSPENSE_LIST_TYPE = symbolFor("react.suspense_list");
+        REACT_MEMO_TYPE = symbolFor("react.memo");
+        REACT_LAZY_TYPE = symbolFor("react.lazy");
+        REACT_BLOCK_TYPE = symbolFor("react.block");
+        REACT_SERVER_BLOCK_TYPE = symbolFor("react.server.block");
+        REACT_FUNDAMENTAL_TYPE = symbolFor("react.fundamental");
+        REACT_SCOPE_TYPE = symbolFor("react.scope");
+        REACT_OPAQUE_ID_TYPE = symbolFor("react.opaque.id");
+        REACT_DEBUG_TRACING_MODE_TYPE = symbolFor("react.debug_trace_mode");
+        REACT_OFFSCREEN_TYPE = symbolFor("react.offscreen");
+        REACT_LEGACY_HIDDEN_TYPE = symbolFor("react.legacy_hidden");
+    }
+    var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map; // We never remove these associations.
+    // It's OK to reference families, but use WeakMap/Set for types.
+    var allFamiliesByID = new Map();
+    var allFamiliesByType = new PossiblyWeakMap();
+    var allSignaturesByType = new PossiblyWeakMap(); // This WeakMap is read by React, so we only put families
+    // that have actually been edited here. This keeps checks fast.
+    // $FlowIssue
+    var updatedFamiliesByType = new PossiblyWeakMap(); // This is cleared on every performReactRefresh() call.
+    // It is an array of [Family, NextType] tuples.
+    var pendingUpdates = []; // This is injected by the renderer via DevTools global hook.
+    var helpersByRendererID = new Map();
+    var helpersByRoot = new Map(); // We keep track of mounted roots so we can schedule updates.
+    var mountedRoots = new Set(); // If a root captures an error, we remember it so we can retry on edit.
+    var failedRoots = new Set(); // In environments that support WeakMap, we also remember the last element for every root.
+    // It needs to be weak because we do this even for roots that failed to mount.
+    // If there is no WeakMap, we won't attempt to do retrying.
+    // $FlowIssue
+    var rootElements = typeof WeakMap === "function" ? new WeakMap() : null;
+    var isPerformingRefresh = false;
+    function computeFullKey(signature) {
+        if (signature.fullKey !== null) return signature.fullKey;
+        var fullKey = signature.ownKey;
+        var hooks;
+        try {
+            hooks = signature.getCustomHooks();
+        } catch (err) {
+            // This can happen in an edge case, e.g. if expression like Foo.useSomething
+            // depends on Foo which is lazily initialized during rendering.
+            // In that case just assume we'll have to remount.
+            signature.forceReset = true;
+            signature.fullKey = fullKey;
+            return fullKey;
+        }
+        for(var i = 0; i < hooks.length; i++){
+            var hook = hooks[i];
+            if (typeof hook !== "function") {
+                // Something's wrong. Assume we need to remount.
+                signature.forceReset = true;
+                signature.fullKey = fullKey;
+                return fullKey;
+            }
+            var nestedHookSignature = allSignaturesByType.get(hook);
+            if (nestedHookSignature === undefined) continue;
+            var nestedHookKey = computeFullKey(nestedHookSignature);
+            if (nestedHookSignature.forceReset) signature.forceReset = true;
+            fullKey += "\n---\n" + nestedHookKey;
+        }
+        signature.fullKey = fullKey;
+        return fullKey;
+    }
+    function haveEqualSignatures(prevType, nextType) {
+        var prevSignature = allSignaturesByType.get(prevType);
+        var nextSignature = allSignaturesByType.get(nextType);
+        if (prevSignature === undefined && nextSignature === undefined) return true;
+        if (prevSignature === undefined || nextSignature === undefined) return false;
+        if (computeFullKey(prevSignature) !== computeFullKey(nextSignature)) return false;
+        if (nextSignature.forceReset) return false;
+        return true;
+    }
+    function isReactClass(type) {
+        return type.prototype && type.prototype.isReactComponent;
+    }
+    function canPreserveStateBetween(prevType, nextType) {
+        if (isReactClass(prevType) || isReactClass(nextType)) return false;
+        if (haveEqualSignatures(prevType, nextType)) return true;
+        return false;
+    }
+    function resolveFamily(type) {
+        // Only check updated types to keep lookups fast.
+        return updatedFamiliesByType.get(type);
+    } // If we didn't care about IE11, we could use new Map/Set(iterable).
+    function cloneMap(map) {
+        var clone = new Map();
+        map.forEach(function(value, key) {
+            clone.set(key, value);
+        });
+        return clone;
+    }
+    function cloneSet(set) {
+        var clone = new Set();
+        set.forEach(function(value) {
+            clone.add(value);
+        });
+        return clone;
+    }
+    function performReactRefresh() {
+        if (pendingUpdates.length === 0) return null;
+        if (isPerformingRefresh) return null;
+        isPerformingRefresh = true;
+        try {
+            var staleFamilies = new Set();
+            var updatedFamilies = new Set();
+            var updates = pendingUpdates;
+            pendingUpdates = [];
+            updates.forEach(function(_ref) {
+                var family = _ref[0], nextType = _ref[1];
+                // Now that we got a real edit, we can create associations
+                // that will be read by the React reconciler.
+                var prevType = family.current;
+                updatedFamiliesByType.set(prevType, family);
+                updatedFamiliesByType.set(nextType, family);
+                family.current = nextType; // Determine whether this should be a re-render or a re-mount.
+                if (canPreserveStateBetween(prevType, nextType)) updatedFamilies.add(family);
+                else staleFamilies.add(family);
+            }); // TODO: rename these fields to something more meaningful.
+            var update = {
+                updatedFamilies: updatedFamilies,
+                // Families that will re-render preserving state
+                staleFamilies: staleFamilies // Families that will be remounted
+            };
+            helpersByRendererID.forEach(function(helpers) {
+                // Even if there are no roots, set the handler on first update.
+                // This ensures that if *new* roots are mounted, they'll use the resolve handler.
+                helpers.setRefreshHandler(resolveFamily);
+            });
+            var didError = false;
+            var firstError = null; // We snapshot maps and sets that are mutated during commits.
+            // If we don't do this, there is a risk they will be mutated while
+            // we iterate over them. For example, trying to recover a failed root
+            // may cause another root to be added to the failed list -- an infinite loop.
+            var failedRootsSnapshot = cloneSet(failedRoots);
+            var mountedRootsSnapshot = cloneSet(mountedRoots);
+            var helpersByRootSnapshot = cloneMap(helpersByRoot);
+            failedRootsSnapshot.forEach(function(root) {
+                var helpers = helpersByRootSnapshot.get(root);
+                if (helpers === undefined) throw new Error("Could not find helpers for a root. This is a bug in React Refresh.");
+                failedRoots.has(root);
+                if (rootElements === null) return;
+                if (!rootElements.has(root)) return;
+                var element = rootElements.get(root);
+                try {
+                    helpers.scheduleRoot(root, element);
+                } catch (err) {
+                    if (!didError) {
+                        didError = true;
+                        firstError = err;
+                    } // Keep trying other roots.
+                }
+            });
+            mountedRootsSnapshot.forEach(function(root) {
+                var helpers = helpersByRootSnapshot.get(root);
+                if (helpers === undefined) throw new Error("Could not find helpers for a root. This is a bug in React Refresh.");
+                mountedRoots.has(root);
+                try {
+                    helpers.scheduleRefresh(root, update);
+                } catch (err) {
+                    if (!didError) {
+                        didError = true;
+                        firstError = err;
+                    } // Keep trying other roots.
+                }
+            });
+            if (didError) throw firstError;
+            return update;
+        } finally{
+            isPerformingRefresh = false;
+        }
+    }
+    function register(type, id) {
+        if (type === null) return;
+        if (typeof type !== "function" && typeof type !== "object") return;
+         // This can happen in an edge case, e.g. if we register
+        // return value of a HOC but it returns a cached component.
+        // Ignore anything but the first registration for each type.
+        if (allFamiliesByType.has(type)) return;
+         // Create family or remember to update it.
+        // None of this bookkeeping affects reconciliation
+        // until the first performReactRefresh() call above.
+        var family = allFamiliesByID.get(id);
+        if (family === undefined) {
+            family = {
+                current: type
+            };
+            allFamiliesByID.set(id, family);
+        } else pendingUpdates.push([
+            family,
+            type
+        ]);
+        allFamiliesByType.set(type, family); // Visit inner types because we might not have registered them.
+        if (typeof type === "object" && type !== null) switch(type.$$typeof){
+            case REACT_FORWARD_REF_TYPE:
+                register(type.render, id + "$render");
+                break;
+            case REACT_MEMO_TYPE:
+                register(type.type, id + "$type");
+                break;
+        }
+    }
+    function setSignature(type, key) {
+        var forceReset = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+        var getCustomHooks = arguments.length > 3 ? arguments[3] : undefined;
+        allSignaturesByType.set(type, {
+            forceReset: forceReset,
+            ownKey: key,
+            fullKey: null,
+            getCustomHooks: getCustomHooks || function() {
+                return [];
+            }
+        });
+    } // This is lazily called during first render for a type.
+    // It captures Hook list at that time so inline requires don't break comparisons.
+    function collectCustomHooksForSignature(type) {
+        var signature = allSignaturesByType.get(type);
+        if (signature !== undefined) computeFullKey(signature);
+    }
+    function getFamilyByID(id) {
+        return allFamiliesByID.get(id);
+    }
+    function getFamilyByType(type) {
+        return allFamiliesByType.get(type);
+    }
+    function findAffectedHostInstances(families) {
+        var affectedInstances = new Set();
+        mountedRoots.forEach(function(root) {
+            var helpers = helpersByRoot.get(root);
+            if (helpers === undefined) throw new Error("Could not find helpers for a root. This is a bug in React Refresh.");
+            var instancesForRoot = helpers.findHostInstancesForRefresh(root, families);
+            instancesForRoot.forEach(function(inst) {
+                affectedInstances.add(inst);
+            });
+        });
+        return affectedInstances;
+    }
+    function injectIntoGlobalHook(globalObject) {
+        // For React Native, the global hook will be set up by require('react-devtools-core').
+        // That code will run before us. So we need to monkeypatch functions on existing hook.
+        // For React Web, the global hook will be set up by the extension.
+        // This will also run before us.
+        var hook = globalObject.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+        if (hook === undefined) {
+            // However, if there is no DevTools extension, we'll need to set up the global hook ourselves.
+            // Note that in this case it's important that renderer code runs *after* this method call.
+            // Otherwise, the renderer will think that there is no global hook, and won't do the injection.
+            var nextID = 0;
+            globalObject.__REACT_DEVTOOLS_GLOBAL_HOOK__ = hook = {
+                renderers: new Map(),
+                supportsFiber: true,
+                inject: function(injected) {
+                    return nextID++;
+                },
+                onScheduleFiberRoot: function(id, root, children) {},
+                onCommitFiberRoot: function(id, root, maybePriorityLevel, didError) {},
+                onCommitFiberUnmount: function() {}
+            };
+        } // Here, we just want to get a reference to scheduleRefresh.
+        var oldInject = hook.inject;
+        hook.inject = function(injected) {
+            var id = oldInject.apply(this, arguments);
+            if (typeof injected.scheduleRefresh === "function" && typeof injected.setRefreshHandler === "function") // This version supports React Refresh.
+            helpersByRendererID.set(id, injected);
+            return id;
+        }; // Do the same for any already injected roots.
+        // This is useful if ReactDOM has already been initialized.
+        // https://github.com/facebook/react/issues/17626
+        hook.renderers.forEach(function(injected, id) {
+            if (typeof injected.scheduleRefresh === "function" && typeof injected.setRefreshHandler === "function") // This version supports React Refresh.
+            helpersByRendererID.set(id, injected);
+        }); // We also want to track currently mounted roots.
+        var oldOnCommitFiberRoot = hook.onCommitFiberRoot;
+        var oldOnScheduleFiberRoot = hook.onScheduleFiberRoot || function() {};
+        hook.onScheduleFiberRoot = function(id, root, children) {
+            if (!isPerformingRefresh) {
+                // If it was intentionally scheduled, don't attempt to restore.
+                // This includes intentionally scheduled unmounts.
+                failedRoots.delete(root);
+                if (rootElements !== null) rootElements.set(root, children);
+            }
+            return oldOnScheduleFiberRoot.apply(this, arguments);
+        };
+        hook.onCommitFiberRoot = function(id, root, maybePriorityLevel, didError) {
+            var helpers = helpersByRendererID.get(id);
+            if (helpers === undefined) return;
+            helpersByRoot.set(root, helpers);
+            var current = root.current;
+            var alternate = current.alternate; // We need to determine whether this root has just (un)mounted.
+            // This logic is copy-pasted from similar logic in the DevTools backend.
+            // If this breaks with some refactoring, you'll want to update DevTools too.
+            if (alternate !== null) {
+                var wasMounted = alternate.memoizedState != null && alternate.memoizedState.element != null;
+                var isMounted = current.memoizedState != null && current.memoizedState.element != null;
+                if (!wasMounted && isMounted) {
+                    // Mount a new root.
+                    mountedRoots.add(root);
+                    failedRoots.delete(root);
+                } else if (wasMounted && isMounted) ;
+                else if (wasMounted && !isMounted) {
+                    // Unmount an existing root.
+                    mountedRoots.delete(root);
+                    if (didError) // We'll remount it on future edits.
+                    failedRoots.add(root);
+                    else helpersByRoot.delete(root);
+                } else if (!wasMounted && !isMounted) {
+                    if (didError) // We'll remount it on future edits.
+                    failedRoots.add(root);
+                }
+            } else // Mount a new root.
+            mountedRoots.add(root);
+            return oldOnCommitFiberRoot.apply(this, arguments);
+        };
+    }
+    function hasUnrecoverableErrors() {
+        // TODO: delete this after removing dependency in RN.
+        return false;
+    } // Exposed for testing.
+    function _getMountedRootCount() {
+        return mountedRoots.size;
+    } // This is a wrapper over more primitive functions for setting signature.
+    // Signatures let us decide whether the Hook order has changed on refresh.
+    //
+    // This function is intended to be used as a transform target, e.g.:
+    // var _s = createSignatureFunctionForTransform()
+    //
+    // function Hello() {
+    //   const [foo, setFoo] = useState(0);
+    //   const value = useCustomHook();
+    //   _s(); /* Second call triggers collecting the custom Hook list.
+    //          * This doesn't happen during the module evaluation because we
+    //          * don't want to change the module order with inline requires.
+    //          * Next calls are noops. */
+    //   return <h1>Hi</h1>;
+    // }
+    //
+    // /* First call specifies the signature: */
+    // _s(
+    //   Hello,
+    //   'useState{[foo, setFoo]}(0)',
+    //   () => [useCustomHook], /* Lazy to avoid triggering inline requires */
+    // );
+    function createSignatureFunctionForTransform() {
+        // We'll fill in the signature in two steps.
+        // First, we'll know the signature itself. This happens outside the component.
+        // Then, we'll know the references to custom Hooks. This happens inside the component.
+        // After that, the returned function will be a fast path no-op.
+        var status = "needsSignature";
+        var savedType;
+        var hasCustomHooks;
+        return function(type, key, forceReset, getCustomHooks) {
+            switch(status){
+                case "needsSignature":
+                    if (type !== undefined) {
+                        // If we received an argument, this is the initial registration call.
+                        savedType = type;
+                        hasCustomHooks = typeof getCustomHooks === "function";
+                        setSignature(type, key, forceReset, getCustomHooks); // The next call we expect is from inside a function, to fill in the custom Hooks.
+                        status = "needsCustomHooks";
+                    }
+                    break;
+                case "needsCustomHooks":
+                    if (hasCustomHooks) collectCustomHooksForSignature(savedType);
+                    status = "resolved";
+                    break;
+            }
+            return type;
+        };
+    }
+    function isLikelyComponentType(type) {
+        switch(typeof type){
+            case "function":
+                // First, deal with classes.
+                if (type.prototype != null) {
+                    if (type.prototype.isReactComponent) // React class.
+                    return true;
+                    var ownNames = Object.getOwnPropertyNames(type.prototype);
+                    if (ownNames.length > 1 || ownNames[0] !== "constructor") // This looks like a class.
+                    return false;
+                     // eslint-disable-next-line no-proto
+                    if (type.prototype.__proto__ !== Object.prototype) // It has a superclass.
+                    return false;
+                     // Pass through.
+                // This looks like a regular function with empty prototype.
+                } // For plain functions and arrows, use name as a heuristic.
+                var name = type.name || type.displayName;
+                return typeof name === "string" && /^[A-Z]/.test(name);
+            case "object":
+                if (type != null) switch(type.$$typeof){
+                    case REACT_FORWARD_REF_TYPE:
+                    case REACT_MEMO_TYPE:
+                        // Definitely React components.
+                        return true;
+                    default:
+                        return false;
+                }
+                return false;
+            default:
+                return false;
+        }
+    }
+    exports._getMountedRootCount = _getMountedRootCount;
+    exports.collectCustomHooksForSignature = collectCustomHooksForSignature;
+    exports.createSignatureFunctionForTransform = createSignatureFunctionForTransform;
+    exports.findAffectedHostInstances = findAffectedHostInstances;
+    exports.getFamilyByID = getFamilyByID;
+    exports.getFamilyByType = getFamilyByType;
+    exports.hasUnrecoverableErrors = hasUnrecoverableErrors;
+    exports.injectIntoGlobalHook = injectIntoGlobalHook;
+    exports.isLikelyComponentType = isLikelyComponentType;
+    exports.performReactRefresh = performReactRefresh;
+    exports.register = register;
+    exports.setSignature = setSignature;
+})();
+
+},{}],"ikLtg":[function() {},{}],"hvm1d":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IconRegular", ()=>(0, _iconRegular.IconRegular));
@@ -28648,15 +29854,18 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IconRegular", ()=>IconRegular);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _iconMoreVertical3 = require("../../icons/IconMoreVertical3");
+var _iconMoreVertical2 = require("../../icons/IconMoreVertical2");
+var _styleCss = require("./style.css");
 var _s = $RefreshSig$();
-const IconRegular = ({ stateProp, size, className, icon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconMoreVertical3.IconMoreVertical3), {
-    className: "!relative !w-[20px] !h-[20px]"
+const IconRegular = ({ stateProp, size, className, icon = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconMoreVertical2.IconMoreVertical2), {
+    className: "icon-more-vertical"
 }, void 0, false, {
     fileName: "src/components/IconRegular/IconRegular.tsx",
-    lineNumber: 21,
+    lineNumber: 23,
     columnNumber: 10
 }, undefined) })=>{
     _s();
@@ -28665,7 +29874,7 @@ const IconRegular = ({ stateProp, size, className, icon = /*#__PURE__*/ (0, _jsx
         size: size || "regular"
     });
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `inline-flex items-center gap-[8px] p-[2px] rounded-[4px] justify-center relative ${state.state === "hover" ? "bg-primitives-midnight-midnight-100" : ""} ${className}`,
+        className: `icon-regular ${state.state} ${className}`,
         onMouseLeave: ()=>{
             dispatch("mouse_leave");
         },
@@ -28675,7 +29884,7 @@ const IconRegular = ({ stateProp, size, className, icon = /*#__PURE__*/ (0, _jsx
         children: icon
     }, void 0, false, {
         fileName: "src/components/IconRegular/IconRegular.tsx",
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 5
     }, undefined);
 };
@@ -28696,6 +29905,16 @@ function reducer(state, action) {
     }
     return state;
 }
+IconRegular.propTypes = {
+    stateProp: (0, _propTypesDefault.default).oneOf([
+        "hover",
+        "normal"
+    ]),
+    size: (0, _propTypesDefault.default).oneOf([
+        "regular",
+        "small"
+    ])
+};
 var _c;
 $RefreshReg$(_c, "IconRegular");
 
@@ -28704,17 +29923,17 @@ $RefreshReg$(_c, "IconRegular");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/IconMoreVertical3":"5IY36","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5IY36":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","../../icons/IconMoreVertical2":"cUCye","./style.css":"4lQZo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cUCye":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconMoreVertical3", ()=>(0, _iconMoreVertical3.IconMoreVertical3));
-var _iconMoreVertical3 = require("./IconMoreVertical3");
+parcelHelpers.export(exports, "IconMoreVertical2", ()=>(0, _iconMoreVertical2.IconMoreVertical2));
+var _iconMoreVertical2 = require("./IconMoreVertical2");
 
-},{"./IconMoreVertical3":"8HYUG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8HYUG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$51ae = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconMoreVertical2":"byT8c","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"byT8c":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e1ad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$51ae.prelude(module);
+$parcel$ReactRefreshHelpers$e1ad.prelude(module);
 
 try {
 /*
@@ -28722,13 +29941,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconMoreVertical3", ()=>IconMoreVertical3);
+parcelHelpers.export(exports, "IconMoreVertical2", ()=>IconMoreVertical2);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconMoreVertical3 = ({ className })=>{
+const IconMoreVertical2 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-more-vertical-2 ${className}`,
         fill: "none",
         height: "21",
         viewBox: "0 0 20 21",
@@ -28736,55 +29955,58 @@ const IconMoreVertical3 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.99331 10.5H10.0008",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "2.08333"
             }, void 0, false, {
-                fileName: "src/icons/IconMoreVertical3/IconMoreVertical3.tsx",
+                fileName: "src/icons/IconMoreVertical2/IconMoreVertical2.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.98678 15.5H9.99426",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "2.08333"
             }, void 0, false, {
-                fileName: "src/icons/IconMoreVertical3/IconMoreVertical3.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconMoreVertical2/IconMoreVertical2.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.99981 5.5H10.0073",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "2.08333"
             }, void 0, false, {
-                fileName: "src/icons/IconMoreVertical3/IconMoreVertical3.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconMoreVertical2/IconMoreVertical2.tsx",
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconMoreVertical3/IconMoreVertical3.tsx",
+        fileName: "src/icons/IconMoreVertical2/IconMoreVertical2.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconMoreVertical3;
+_c = IconMoreVertical2;
 var _c;
-$RefreshReg$(_c, "IconMoreVertical3");
+$RefreshReg$(_c, "IconMoreVertical2");
 
-  $parcel$ReactRefreshHelpers$51ae.postlude(module);
+  $parcel$ReactRefreshHelpers$e1ad.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6TZrQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4lQZo":[function() {},{}],"6TZrQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Logo", ()=>(0, _logo.Logo));
@@ -28806,32 +30028,33 @@ parcelHelpers.export(exports, "Logo", ()=>Logo);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleCss = require("./style.css");
 var _image8412XPng = require("../../images/image-84-1@2x.png");
 var _image8412XPngDefault = parcelHelpers.interopDefault(_image8412XPng);
 const Logo = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `flex w-[30px] h-[30px] items-center justify-center gap-[7px] p-[3.5px] relative rounded-[3.5px] border-[0.88px] border-solid border-base-border-border-primary [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(237.31,237.31,237.31)_100%)] ${className}`,
+        className: `logo ${className}`,
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "absolute w-[28px] h-[24px] top-[3px] left-0 bg-white rounded-[1.75px] opacity-40"
+                className: "rectangle"
+            }, void 0, false, {
+                fileName: "src/components/Logo/Logo.tsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "image",
+                alt: "Image",
+                src: (0, _image8412XPngDefault.default)
             }, void 0, false, {
                 fileName: "src/components/Logo/Logo.tsx",
                 lineNumber: 17,
                 columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "relative w-[30px] h-[16px] ml-[-4.50px] mr-[-2.75px]",
-                alt: "logo",
-                src: (0, _image8412XPngDefault.default)
-            }, void 0, false, {
-                fileName: "src/components/Logo/Logo.tsx",
-                lineNumber: 19,
-                columnNumber: 8
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Logo/Logo.tsx",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 5
     }, undefined);
 };
@@ -28844,7 +30067,7 @@ $RefreshReg$(_c, "Logo");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../images/image-84-1@2x.png":"76SYW"}],"76SYW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"lF8kU","../../images/image-84-1@2x.png":"76SYW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lF8kU":[function() {},{}],"76SYW":[function(require,module,exports) {
 module.exports = require("2a1f36dd0a364ef3").getBundleURL("6EXJA") + "image-84-1@2x.a2367f09.png" + "?" + Date.now();
 
 },{"2a1f36dd0a364ef3":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -28902,31 +30125,37 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Bell", ()=>Bell);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Bell = ({ color = "#8C8EA5", className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `bell ${className}`,
         fill: "none",
         height: "32",
         viewBox: "0 0 32 32",
         width: "32",
         xmlns: "http://www.w3.org/2000/svg",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
             d: "M27.725 21.9925C27.0313 20.7975 26 17.4163 26 13C26 10.3478 24.9464 7.8043 23.0711 5.92893C21.1957 4.05357 18.6522 3 16 3C13.3479 3 10.8043 4.05357 8.92895 5.92893C7.05358 7.8043 6.00002 10.3478 6.00002 13C6.00002 17.4175 4.96752 20.7975 4.27377 21.9925C4.0966 22.2963 4.00268 22.6415 4.00148 22.9931C4.00027 23.3448 4.09182 23.6906 4.26689 23.9956C4.44196 24.3006 4.69437 24.5541 4.99865 24.7304C5.30293 24.9068 5.64833 24.9997 6.00002 25H11.1013C11.332 26.1289 11.9455 27.1436 12.8382 27.8722C13.7308 28.6009 14.8477 28.9989 16 28.9989C17.1523 28.9989 18.2692 28.6009 19.1618 27.8722C20.0545 27.1436 20.6681 26.1289 20.8988 25H26C26.3516 24.9995 26.6968 24.9064 27.0009 24.73C27.3051 24.5535 27.5573 24.3 27.7322 23.9951C27.9071 23.6901 27.9986 23.3444 27.9973 22.9928C27.996 22.6412 27.9021 22.2962 27.725 21.9925ZM16 27C15.3798 26.9998 14.7749 26.8074 14.2685 26.4492C13.7622 26.0911 13.3793 25.5848 13.1725 25H18.8275C18.6208 25.5848 18.2379 26.0911 17.7315 26.4492C17.2252 26.8074 16.6202 26.9998 16 27ZM6.00002 23C6.96252 21.345 8.00002 17.51 8.00002 13C8.00002 10.8783 8.84287 8.84344 10.3432 7.34315C11.8435 5.84285 13.8783 5 16 5C18.1217 5 20.1566 5.84285 21.6569 7.34315C23.1572 8.84344 24 10.8783 24 13C24 17.5063 25.035 21.3412 26 23H6.00002Z",
             fill: color
         }, void 0, false, {
             fileName: "src/icons/Bell/Bell.tsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/icons/Bell/Bell.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, undefined);
 };
 _c = Bell;
+Bell.propTypes = {
+    color: (0, _propTypesDefault.default).string
+};
 var _c;
 $RefreshReg$(_c, "Bell");
 
@@ -28935,7 +30164,7 @@ $RefreshReg$(_c, "Bell");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2GThs":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2GThs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IconAdd011", ()=>(0, _iconAdd011.IconAdd011));
@@ -28955,11 +30184,13 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IconAdd011", ()=>IconAdd011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const IconAdd011 = ({ color = "white", className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-add-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -28967,18 +30198,8 @@ const IconAdd011 = ({ color = "white", className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M10 3.33331V16.6666",
-                stroke: color,
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: "1.25"
-            }, void 0, false, {
-                fileName: "src/icons/IconAdd011/IconAdd011.tsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                d: "M3.33331 10H16.6666",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
@@ -28987,15 +30208,30 @@ const IconAdd011 = ({ color = "white", className })=>{
                 fileName: "src/icons/IconAdd011/IconAdd011.tsx",
                 lineNumber: 24,
                 columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
+                d: "M3.33331 10H16.6666",
+                stroke: color,
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "1.25"
+            }, void 0, false, {
+                fileName: "src/icons/IconAdd011/IconAdd011.tsx",
+                lineNumber: 32,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/icons/IconAdd011/IconAdd011.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, undefined);
 };
 _c = IconAdd011;
+IconAdd011.propTypes = {
+    color: (0, _propTypesDefault.default).string
+};
 var _c;
 $RefreshReg$(_c, "IconAdd011");
 
@@ -29004,17 +30240,17 @@ $RefreshReg$(_c, "IconAdd011");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hwiiw":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"32OHk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconAnalytics01", ()=>(0, _iconAnalytics01.IconAnalytics01));
-var _iconAnalytics01 = require("./IconAnalytics01");
+parcelHelpers.export(exports, "IconAnalytics011", ()=>(0, _iconAnalytics011.IconAnalytics011));
+var _iconAnalytics011 = require("./IconAnalytics011");
 
-},{"./IconAnalytics01":"hGtro","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hGtro":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f45c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconAnalytics011":"kZjpG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kZjpG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$43b0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f45c.prelude(module);
+$parcel$ReactRefreshHelpers$43b0.prelude(module);
 
 try {
 /*
@@ -29022,13 +30258,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconAnalytics01", ()=>IconAnalytics01);
+parcelHelpers.export(exports, "IconAnalytics011", ()=>IconAnalytics011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconAnalytics01 = ({ className })=>{
+const IconAnalytics011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-analytics-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29036,72 +30272,76 @@ const IconAnalytics01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M5.83331 14.1667L5.83331 10.8333",
                 stroke: "#50A3D2",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconAnalytics01/IconAnalytics01.tsx",
+                fileName: "src/icons/IconAnalytics011/IconAnalytics011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M10 14.1667L10 5.83334",
                 stroke: "#50A3D2",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconAnalytics01/IconAnalytics01.tsx",
-                lineNumber: 23,
+                fileName: "src/icons/IconAnalytics011/IconAnalytics011.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M14.1667 14.1667L14.1667 9.16667",
                 stroke: "#50A3D2",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconAnalytics01/IconAnalytics01.tsx",
-                lineNumber: 24,
+                fileName: "src/icons/IconAnalytics011/IconAnalytics011.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.08331 10C2.08331 6.26805 2.08331 4.40207 3.24268 3.2427C4.40205 2.08334 6.26803 2.08334 9.99998 2.08334C13.7319 2.08334 15.5979 2.08334 16.7573 3.2427C17.9166 4.40207 17.9166 6.26805 17.9166 10C17.9166 13.732 17.9166 15.5979 16.7573 16.7573C15.5979 17.9167 13.7319 17.9167 9.99998 17.9167C6.26803 17.9167 4.40205 17.9167 3.24268 16.7573C2.08331 15.5979 2.08331 13.732 2.08331 10Z",
                 stroke: "#50A3D2",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconAnalytics01/IconAnalytics01.tsx",
-                lineNumber: 25,
+                fileName: "src/icons/IconAnalytics011/IconAnalytics011.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconAnalytics01/IconAnalytics01.tsx",
+        fileName: "src/icons/IconAnalytics011/IconAnalytics011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconAnalytics01;
+_c = IconAnalytics011;
 var _c;
-$RefreshReg$(_c, "IconAnalytics01");
+$RefreshReg$(_c, "IconAnalytics011");
 
-  $parcel$ReactRefreshHelpers$f45c.postlude(module);
+  $parcel$ReactRefreshHelpers$43b0.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9cx9F":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4fkiG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArchive02", ()=>(0, _iconArchive02.IconArchive02));
-var _iconArchive02 = require("./IconArchive02");
+parcelHelpers.export(exports, "IconArchive021", ()=>(0, _iconArchive021.IconArchive021));
+var _iconArchive021 = require("./IconArchive021");
 
-},{"./IconArchive02":"62FVb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"62FVb":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9932 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconArchive021":"antej","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"antej":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$37c8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9932.prelude(module);
+$parcel$ReactRefreshHelpers$37c8.prelude(module);
 
 try {
 /*
@@ -29109,13 +30349,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArchive02", ()=>IconArchive02);
+parcelHelpers.export(exports, "IconArchive021", ()=>IconArchive021);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconArchive02 = ({ className })=>{
+const IconArchive021 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-archive-02-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29123,75 +30363,79 @@ const IconArchive02 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M1.66669 13.3333C1.66669 11.3843 1.66669 10.4097 2.11374 9.69825C2.34686 9.32724 2.66058 9.01352 3.03159 8.7804C3.74308 8.33334 4.71761 8.33334 6.66669 8.33334H13.3334C15.2824 8.33334 16.257 8.33334 16.9684 8.7804C17.3395 9.01352 17.6532 9.32724 17.8863 9.69825C18.3334 10.4097 18.3334 11.3843 18.3334 13.3333C18.3334 15.2824 18.3334 16.257 17.8863 16.9684C17.6532 17.3394 17.3395 17.6532 16.9684 17.8863C16.257 18.3333 15.2824 18.3333 13.3334 18.3333H6.66669C4.71761 18.3333 3.74308 18.3333 3.03159 17.8863C2.66058 17.6532 2.34686 17.3394 2.11374 16.9684C1.66669 16.257 1.66669 15.2824 1.66669 13.3333Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArchive02/IconArchive02.tsx",
+                fileName: "src/icons/IconArchive021/IconArchive021.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M16.6666 8.33333C16.6666 7.16656 16.6666 6.58317 16.4396 6.13752C16.2398 5.74552 15.9211 5.42681 15.5291 5.22707C15.0835 5 14.5001 5 13.3333 5H6.66665C5.49987 5 4.91648 5 4.47083 5.22707C4.07883 5.42681 3.76012 5.74552 3.56038 6.13752C3.33331 6.58317 3.33331 7.16656 3.33331 8.33333",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArchive02/IconArchive02.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconArchive021/IconArchive021.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M15 4.99999C15 3.42864 15 2.64297 14.5118 2.15481C14.0237 1.66666 13.238 1.66666 11.6667 1.66666H8.33333C6.76198 1.66666 5.97631 1.66666 5.48816 2.15481C5 2.64297 5 3.42864 5 4.99999",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArchive02/IconArchive02.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconArchive021/IconArchive021.tsx",
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 11.6667C12.5 12.5871 11.7538 13.3333 10.8333 13.3333H9.16667C8.24619 13.3333 7.5 12.5871 7.5 11.6667",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArchive02/IconArchive02.tsx",
-                lineNumber: 43,
+                fileName: "src/icons/IconArchive021/IconArchive021.tsx",
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconArchive02/IconArchive02.tsx",
+        fileName: "src/icons/IconArchive021/IconArchive021.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconArchive02;
+_c = IconArchive021;
 var _c;
-$RefreshReg$(_c, "IconArchive02");
+$RefreshReg$(_c, "IconArchive021");
 
-  $parcel$ReactRefreshHelpers$9932.postlude(module);
+  $parcel$ReactRefreshHelpers$37c8.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9vIPc":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iplXh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowDown01Fill", ()=>(0, _iconArrowDown01Fill.IconArrowDown01Fill));
-var _iconArrowDown01Fill = require("./IconArrowDown01Fill");
+parcelHelpers.export(exports, "IconArrowDown01Fill4", ()=>(0, _iconArrowDown01Fill4.IconArrowDown01Fill4));
+var _iconArrowDown01Fill4 = require("./IconArrowDown01Fill4");
 
-},{"./IconArrowDown01Fill":"1euLs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1euLs":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$56d7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconArrowDown01Fill4":"73isp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"73isp":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d283 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$56d7.prelude(module);
+$parcel$ReactRefreshHelpers$d283.prelude(module);
 
 try {
 /*
@@ -29199,52 +30443,53 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowDown01Fill", ()=>IconArrowDown01Fill);
+parcelHelpers.export(exports, "IconArrowDown01Fill4", ()=>IconArrowDown01Fill4);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconArrowDown01Fill = ({ className })=>{
+const IconArrowDown01Fill4 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-arrow-down-01-fill-4 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
         width: "20",
         xmlns: "http://www.w3.org/2000/svg",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
             d: "M9.41074 11.9107L6.42259 8.92259C5.81715 8.31715 5.51443 8.01443 5.62097 7.75721C5.72752 7.5 6.15562 7.5 7.01184 7.5L12.9882 7.5C13.8444 7.5 14.2725 7.5 14.379 7.75722C14.4856 8.01443 14.1828 8.31715 13.5774 8.92259L10.5893 11.9107C10.3115 12.1885 10.1726 12.3274 10 12.3274C9.82741 12.3274 9.68852 12.1885 9.41074 11.9107Z",
             fill: "#8C8EA5"
         }, void 0, false, {
-            fileName: "src/icons/IconArrowDown01Fill/IconArrowDown01Fill.tsx",
+            fileName: "src/icons/IconArrowDown01Fill4/IconArrowDown01Fill4.tsx",
             lineNumber: 22,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
-        fileName: "src/icons/IconArrowDown01Fill/IconArrowDown01Fill.tsx",
+        fileName: "src/icons/IconArrowDown01Fill4/IconArrowDown01Fill4.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconArrowDown01Fill;
+_c = IconArrowDown01Fill4;
 var _c;
-$RefreshReg$(_c, "IconArrowDown01Fill");
+$RefreshReg$(_c, "IconArrowDown01Fill4");
 
-  $parcel$ReactRefreshHelpers$56d7.postlude(module);
+  $parcel$ReactRefreshHelpers$d283.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"67dAu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"evSVw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowLeft03Sharp", ()=>(0, _iconArrowLeft03Sharp.IconArrowLeft03Sharp));
-var _iconArrowLeft03Sharp = require("./IconArrowLeft03Sharp");
+parcelHelpers.export(exports, "IconArrowLeft03Sharp1", ()=>(0, _iconArrowLeft03Sharp1.IconArrowLeft03Sharp1));
+var _iconArrowLeft03Sharp1 = require("./IconArrowLeft03Sharp1");
 
-},{"./IconArrowLeft03Sharp":"jX42U","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jX42U":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2f36 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconArrowLeft03Sharp1":"7zBhT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7zBhT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3610 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2f36.prelude(module);
+$parcel$ReactRefreshHelpers$3610.prelude(module);
 
 try {
 /*
@@ -29252,13 +30497,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowLeft03Sharp", ()=>IconArrowLeft03Sharp);
+parcelHelpers.export(exports, "IconArrowLeft03Sharp1", ()=>IconArrowLeft03Sharp1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconArrowLeft03Sharp = ({ className })=>{
+const IconArrowLeft03Sharp1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-arrow-left-03-sharp-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29266,64 +30511,67 @@ const IconArrowLeft03Sharp = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M3.33334 4.99988L3.33334 14.9999",
                 stroke: "#B3B4CE",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArrowLeft03Sharp/IconArrowLeft03Sharp.tsx",
+                fileName: "src/icons/IconArrowLeft03Sharp1/IconArrowLeft03Sharp1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 10L16.6663 10.0002",
                 stroke: "#B3B4CE",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArrowLeft03Sharp/IconArrowLeft03Sharp.tsx",
-                lineNumber: 23,
+                fileName: "src/icons/IconArrowLeft03Sharp1/IconArrowLeft03Sharp1.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.99999 6.66669L7.25591 9.41077C6.97813 9.68854 6.83925 9.82743 6.83925 10C6.83925 10.1726 6.97813 10.3115 7.25591 10.5893L9.99999 13.3334",
                 stroke: "#B3B4CE",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconArrowLeft03Sharp/IconArrowLeft03Sharp.tsx",
-                lineNumber: 30,
+                fileName: "src/icons/IconArrowLeft03Sharp1/IconArrowLeft03Sharp1.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconArrowLeft03Sharp/IconArrowLeft03Sharp.tsx",
+        fileName: "src/icons/IconArrowLeft03Sharp1/IconArrowLeft03Sharp1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconArrowLeft03Sharp;
+_c = IconArrowLeft03Sharp1;
 var _c;
-$RefreshReg$(_c, "IconArrowLeft03Sharp");
+$RefreshReg$(_c, "IconArrowLeft03Sharp1");
 
-  $parcel$ReactRefreshHelpers$2f36.postlude(module);
+  $parcel$ReactRefreshHelpers$3610.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"l8bal":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9mbFA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowRight01Sharp", ()=>(0, _iconArrowRight01Sharp.IconArrowRight01Sharp));
-var _iconArrowRight01Sharp = require("./IconArrowRight01Sharp");
+parcelHelpers.export(exports, "IconArrowRight01Sharp3", ()=>(0, _iconArrowRight01Sharp3.IconArrowRight01Sharp3));
+var _iconArrowRight01Sharp3 = require("./IconArrowRight01Sharp3");
 
-},{"./IconArrowRight01Sharp":"xVDSJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"xVDSJ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1641 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconArrowRight01Sharp3":"k5xLY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5xLY":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5c6a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1641.prelude(module);
+$parcel$ReactRefreshHelpers$5c6a.prelude(module);
 
 try {
 /*
@@ -29331,54 +30579,55 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconArrowRight01Sharp", ()=>IconArrowRight01Sharp);
+parcelHelpers.export(exports, "IconArrowRight01Sharp3", ()=>IconArrowRight01Sharp3);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconArrowRight01Sharp = ({ className })=>{
+const IconArrowRight01Sharp3 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-arrow-right-01-sharp-3 ${className}`,
         fill: "none",
         height: "17",
         viewBox: "0 0 16 17",
         width: "16",
         xmlns: "http://www.w3.org/2000/svg",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
             d: "M6 12.5L9.5286 8.9714C9.75082 8.74918 9.86193 8.63807 9.86193 8.5C9.86193 8.36193 9.75082 8.25082 9.5286 8.0286L6 4.5",
             stroke: "#8C8EA5",
             strokeLinecap: "round",
             strokeLinejoin: "round"
         }, void 0, false, {
-            fileName: "src/icons/IconArrowRight01Sharp/IconArrowRight01Sharp.tsx",
+            fileName: "src/icons/IconArrowRight01Sharp3/IconArrowRight01Sharp3.tsx",
             lineNumber: 22,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
-        fileName: "src/icons/IconArrowRight01Sharp/IconArrowRight01Sharp.tsx",
+        fileName: "src/icons/IconArrowRight01Sharp3/IconArrowRight01Sharp3.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconArrowRight01Sharp;
+_c = IconArrowRight01Sharp3;
 var _c;
-$RefreshReg$(_c, "IconArrowRight01Sharp");
+$RefreshReg$(_c, "IconArrowRight01Sharp3");
 
-  $parcel$ReactRefreshHelpers$1641.postlude(module);
+  $parcel$ReactRefreshHelpers$5c6a.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1IM40":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gZUa8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconBuilding03", ()=>(0, _iconBuilding03.IconBuilding03));
-var _iconBuilding03 = require("./IconBuilding03");
+parcelHelpers.export(exports, "IconBuilding031", ()=>(0, _iconBuilding031.IconBuilding031));
+var _iconBuilding031 = require("./IconBuilding031");
 
-},{"./IconBuilding03":"kwNia","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kwNia":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2813 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconBuilding031":"lPfo8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lPfo8":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4453 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2813.prelude(module);
+$parcel$ReactRefreshHelpers$4453.prelude(module);
 
 try {
 /*
@@ -29386,13 +30635,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconBuilding03", ()=>IconBuilding03);
+parcelHelpers.export(exports, "IconBuilding031", ()=>IconBuilding031);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconBuilding03 = ({ className })=>{
+const IconBuilding031 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-building-03-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29400,84 +30649,89 @@ const IconBuilding03 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M13.3333 8.33331L15.1245 8.87066C16.2688 9.21396 16.841 9.38561 17.1705 9.82848C17.5 10.2714 17.5 10.8687 17.5 12.0634L17.5 18.3333",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
+                fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M6.66669 7.5L9.16669 7.5M6.66669 10.8333L9.16669 10.8333",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.99998 18.3334V15.8334C9.99998 15.0477 9.99998 14.6548 9.7559 14.4108C9.51182 14.1667 9.11899 14.1667 8.33331 14.1667H7.49998C6.71431 14.1667 6.32147 14.1667 6.07739 14.4108C5.83331 14.6548 5.83331 15.0477 5.83331 15.8334L5.83331 18.3334",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
-                lineNumber: 35,
+                fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M1.66669 18.3333H18.3334",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
-                lineNumber: 41,
+                fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 18.3334L2.5 5.59772C2.5 3.50543 2.5 2.45928 3.15932 1.94022C3.81864 1.42117 4.78951 1.70298 6.73127 2.2666L10.8979 3.47604C12.0697 3.81616 12.6556 3.98622 12.9945 4.44973C13.3333 4.91324 13.3333 5.54455 13.3333 6.80716L13.3333 18.3334",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
-                lineNumber: 42,
+                fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconBuilding03/IconBuilding03.tsx",
+        fileName: "src/icons/IconBuilding031/IconBuilding031.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconBuilding03;
+_c = IconBuilding031;
 var _c;
-$RefreshReg$(_c, "IconBuilding03");
+$RefreshReg$(_c, "IconBuilding031");
 
-  $parcel$ReactRefreshHelpers$2813.postlude(module);
+  $parcel$ReactRefreshHelpers$4453.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7cOa3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jAxVX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconCalendar03", ()=>(0, _iconCalendar03.IconCalendar03));
-var _iconCalendar03 = require("./IconCalendar03");
+parcelHelpers.export(exports, "IconCalendar031", ()=>(0, _iconCalendar031.IconCalendar031));
+var _iconCalendar031 = require("./IconCalendar031");
 
-},{"./IconCalendar03":"1n5HB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1n5HB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4dea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconCalendar031":"6laEi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6laEi":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$80dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4dea.prelude(module);
+$parcel$ReactRefreshHelpers$80dc.prelude(module);
 
 try {
 /*
@@ -29485,13 +30739,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconCalendar03", ()=>IconCalendar03);
+parcelHelpers.export(exports, "IconCalendar031", ()=>IconCalendar031);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconCalendar03 = ({ className })=>{
+const IconCalendar031 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-calendar-03-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29499,87 +30753,92 @@ const IconCalendar03 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M15 1.66666V3.33332M5 1.66666V3.33332",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
+                fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.99627 10.8333H10.0037M9.99627 14.1667H10.0037M13.3259 10.8333H13.3333M6.66667 10.8333H6.67415M6.66667 14.1667H6.67415",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.66667"
             }, void 0, false, {
-                fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.91667 6.66666H17.0833",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.08333 10.2027C2.08333 6.57161 2.08333 4.75607 3.12676 3.62803C4.17019 2.5 5.84957 2.5 9.20833 2.5H10.7917C14.1504 2.5 15.8298 2.5 16.8732 3.62803C17.9167 4.75607 17.9167 6.57161 17.9167 10.2027V10.6306C17.9167 14.2617 17.9167 16.0773 16.8732 17.2053C15.8298 18.3333 14.1504 18.3333 10.7917 18.3333H9.20833C5.84957 18.3333 4.17019 18.3333 3.12676 17.2053C2.08333 16.0773 2.08333 14.2617 2.08333 10.6306V10.2027Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
-                lineNumber: 43,
+                fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 6.66666H17.5",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
-                lineNumber: 50,
+                fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconCalendar03/IconCalendar03.tsx",
+        fileName: "src/icons/IconCalendar031/IconCalendar031.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconCalendar03;
+_c = IconCalendar031;
 var _c;
-$RefreshReg$(_c, "IconCalendar03");
+$RefreshReg$(_c, "IconCalendar031");
 
-  $parcel$ReactRefreshHelpers$4dea.postlude(module);
+  $parcel$ReactRefreshHelpers$80dc.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5vfXD":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5FYDF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconContact01", ()=>(0, _iconContact01.IconContact01));
-var _iconContact01 = require("./IconContact01");
+parcelHelpers.export(exports, "IconContact011", ()=>(0, _iconContact011.IconContact011));
+var _iconContact011 = require("./IconContact011");
 
-},{"./IconContact01":"61aFV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"61aFV":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$fed2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconContact011":"2ZwcY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2ZwcY":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$466e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$fed2.prelude(module);
+$parcel$ReactRefreshHelpers$466e.prelude(module);
 
 try {
 /*
@@ -29587,13 +30846,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconContact01", ()=>IconContact01);
+parcelHelpers.export(exports, "IconContact011", ()=>IconContact011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconContact01 = ({ className })=>{
+const IconContact011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-contact-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29601,6 +30860,7 @@ const IconContact01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("rect", {
+                className: "rect",
                 height: "16.6667",
                 rx: "3.33333",
                 stroke: "#8C8EA5",
@@ -29609,82 +30869,87 @@ const IconContact01 = ({ className })=>{
                 x: "3.33331",
                 y: "1.66666"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M8.82503 11.4507C8.30104 11.8017 6.92717 12.5184 7.76395 13.4152C8.17271 13.8534 8.62796 14.1667 9.20032 14.1667H12.4663C13.0387 14.1667 13.494 13.8534 13.9027 13.4152C14.7395 12.5184 13.3656 11.8017 12.8416 11.4507C11.6129 10.6276 10.0538 10.6276 8.82503 11.4507Z",
                 fill: "#8C8EA5"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
-                lineNumber: 23,
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 7.50001C12.5 8.42049 11.7538 9.16668 10.8333 9.16668C9.91286 9.16668 9.16667 8.42049 9.16667 7.50001C9.16667 6.57954 9.91286 5.83334 10.8333 5.83334C11.7538 5.83334 12.5 6.57954 12.5 7.50001Z",
                 fill: "#8C8EA5"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
-                lineNumber: 27,
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M8.82503 11.4507C8.30104 11.8017 6.92717 12.5184 7.76395 13.4152C8.17271 13.8534 8.62796 14.1667 9.20032 14.1667H12.4663C13.0387 14.1667 13.494 13.8534 13.9027 13.4152C14.7395 12.5184 13.3656 11.8017 12.8416 11.4507C11.6129 10.6276 10.0538 10.6276 8.82503 11.4507Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
-                lineNumber: 31,
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 7.50001C12.5 8.42049 11.7538 9.16668 10.8333 9.16668C9.91286 9.16668 9.16667 8.42049 9.16667 7.50001C9.16667 6.57954 9.91286 5.83334 10.8333 5.83334C11.7538 5.83334 12.5 6.57954 12.5 7.50001Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M4.16665 5L2.08331 5M4.16665 10L2.08331 10M4.16665 15H2.08331",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconContact01/IconContact01.tsx",
-                lineNumber: 41,
+                fileName: "src/icons/IconContact011/IconContact011.tsx",
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconContact01/IconContact01.tsx",
+        fileName: "src/icons/IconContact011/IconContact011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconContact01;
+_c = IconContact011;
 var _c;
-$RefreshReg$(_c, "IconContact01");
+$RefreshReg$(_c, "IconContact011");
 
-  $parcel$ReactRefreshHelpers$fed2.postlude(module);
+  $parcel$ReactRefreshHelpers$466e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g0b8u":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jbf6j":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFile01", ()=>(0, _iconFile01.IconFile01));
-var _iconFile01 = require("./IconFile01");
+parcelHelpers.export(exports, "IconFile011", ()=>(0, _iconFile011.IconFile011));
+var _iconFile011 = require("./IconFile011");
 
-},{"./IconFile01":"gfDpo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gfDpo":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$40f8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconFile011":"atSdO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"atSdO":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2ea3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$40f8.prelude(module);
+$parcel$ReactRefreshHelpers$2ea3.prelude(module);
 
 try {
 /*
@@ -29692,13 +30957,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFile01", ()=>IconFile01);
+parcelHelpers.export(exports, "IconFile011", ()=>IconFile011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconFile01 = ({ className })=>{
+const IconFile011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-file-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29706,75 +30971,79 @@ const IconFile01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.91669 8.33332C2.91669 5.19063 2.91669 3.61928 3.95402 2.64297C4.99135 1.66666 6.66091 1.66666 10 1.66666H10.644C13.3616 1.66666 14.7205 1.66666 15.6641 2.33152C15.9345 2.52201 16.1745 2.74793 16.3769 3.0024C17.0834 3.89055 17.0834 5.16945 17.0834 7.72726V9.84848C17.0834 12.3178 17.0834 13.5524 16.6926 14.5385C16.0643 16.1238 14.7357 17.3743 13.0514 17.9655C12.0037 18.3333 10.6918 18.3333 8.0682 18.3333C6.56898 18.3333 5.81937 18.3333 5.22067 18.1232C4.25818 17.7853 3.49898 17.0707 3.13999 16.1649C2.91669 15.6014 2.91669 14.8959 2.91669 13.4848V8.33332Z",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFile01/IconFile01.tsx",
+                fileName: "src/icons/IconFile011/IconFile011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M17.0833 10C17.0833 11.5341 15.8397 12.7778 14.3056 12.7778C13.7507 12.7778 13.0966 12.6806 12.5572 12.8251C12.0779 12.9535 11.7035 13.3279 11.5751 13.8072C11.4306 14.3466 11.5278 15.0007 11.5278 15.5556C11.5278 17.0897 10.2841 18.3333 8.75 18.3333",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFile01/IconFile01.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconFile011/IconFile011.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M6.66669 5.83334H12.5",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFile01/IconFile01.tsx",
-                lineNumber: 35,
+                fileName: "src/icons/IconFile011/IconFile011.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M6.66669 9.16666H9.16669",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFile01/IconFile01.tsx",
-                lineNumber: 42,
+                fileName: "src/icons/IconFile011/IconFile011.tsx",
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconFile01/IconFile01.tsx",
+        fileName: "src/icons/IconFile011/IconFile011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconFile01;
+_c = IconFile011;
 var _c;
-$RefreshReg$(_c, "IconFile01");
+$RefreshReg$(_c, "IconFile011");
 
-  $parcel$ReactRefreshHelpers$40f8.postlude(module);
+  $parcel$ReactRefreshHelpers$2ea3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kQnjl":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jyipw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFileExport", ()=>(0, _iconFileExport.IconFileExport));
-var _iconFileExport = require("./IconFileExport");
+parcelHelpers.export(exports, "IconFileExport1", ()=>(0, _iconFileExport1.IconFileExport1));
+var _iconFileExport1 = require("./IconFileExport1");
 
-},{"./IconFileExport":"6ah7t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6ah7t":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5426 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconFileExport1":"hBSH8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hBSH8":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6d63 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5426.prelude(module);
+$parcel$ReactRefreshHelpers$6d63.prelude(module);
 
 try {
 /*
@@ -29782,13 +31051,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFileExport", ()=>IconFileExport);
+parcelHelpers.export(exports, "IconFileExport1", ()=>IconFileExport1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconFileExport = ({ className })=>{
+const IconFileExport1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-file-export-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29796,65 +31065,68 @@ const IconFileExport = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M15.4167 13.3334C15.8381 13.743 17.5 14.8332 17.5 15.4167M15.4167 17.5C15.8381 17.0904 17.5 16.0002 17.5 15.4167M17.5 15.4167L10.8333 15.4167",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFileExport/IconFileExport.tsx",
+                fileName: "src/icons/IconFileExport1/IconFileExport1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.16669 18.3334H8.93942C6.22174 18.3334 4.86291 18.3334 3.91925 17.6685C3.64887 17.478 3.40884 17.2521 3.20644 16.9976C2.50002 16.1095 2.50002 14.8306 2.50002 12.2728V10.1516C2.50002 7.68225 2.50002 6.44759 2.8908 5.4615C3.51903 3.87623 4.84763 2.62578 6.53199 2.0345C7.57971 1.66671 8.89153 1.66671 11.5152 1.66671C13.0144 1.66671 13.764 1.66671 14.3627 1.87687C15.3252 2.21475 16.0844 2.92929 16.4434 3.83516C16.6667 4.39864 16.6667 5.10416 16.6667 6.51519V10.8334",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFileExport/IconFileExport.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconFileExport1/IconFileExport1.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.49998 10C2.49998 8.46588 3.74363 7.22222 5.27776 7.22222C5.83258 7.22222 6.48668 7.31944 7.02612 7.1749C7.50541 7.04647 7.87978 6.6721 8.00821 6.1928C8.15275 5.65336 8.05554 4.99926 8.05554 4.44444C8.05554 2.91032 9.29919 1.66667 10.8333 1.66667",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconFileExport/IconFileExport.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconFileExport1/IconFileExport1.tsx",
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconFileExport/IconFileExport.tsx",
+        fileName: "src/icons/IconFileExport1/IconFileExport1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconFileExport;
+_c = IconFileExport1;
 var _c;
-$RefreshReg$(_c, "IconFileExport");
+$RefreshReg$(_c, "IconFileExport1");
 
-  $parcel$ReactRefreshHelpers$5426.postlude(module);
+  $parcel$ReactRefreshHelpers$6d63.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fu4On":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huYsb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFloppyDisk", ()=>(0, _iconFloppyDisk.IconFloppyDisk));
-var _iconFloppyDisk = require("./IconFloppyDisk");
+parcelHelpers.export(exports, "IconFloppyDisk1", ()=>(0, _iconFloppyDisk1.IconFloppyDisk1));
+var _iconFloppyDisk1 = require("./IconFloppyDisk1");
 
-},{"./IconFloppyDisk":"4Mec0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4Mec0":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f11c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconFloppyDisk1":"i5Ptn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i5Ptn":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8320 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f11c.prelude(module);
+$parcel$ReactRefreshHelpers$8320.prelude(module);
 
 try {
 /*
@@ -29862,13 +31134,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconFloppyDisk", ()=>IconFloppyDisk);
+parcelHelpers.export(exports, "IconFloppyDisk1", ()=>IconFloppyDisk1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconFloppyDisk = ({ className })=>{
+const IconFloppyDisk1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-floppy-disk-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29876,62 +31148,65 @@ const IconFloppyDisk = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M6.66669 18.3333V15.8333C6.66669 14.262 6.66669 13.4763 7.15484 12.9882C7.643 12.5 8.42867 12.5 10 12.5C11.5714 12.5 12.357 12.5 12.8452 12.9882C13.3334 13.4763 13.3334 14.262 13.3334 15.8333V18.3333",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.5"
             }, void 0, false, {
-                fileName: "src/icons/IconFloppyDisk/IconFloppyDisk.tsx",
+                fileName: "src/icons/IconFloppyDisk1/IconFloppyDisk1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M8.33331 5.83331H11.6666",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.5"
             }, void 0, false, {
-                fileName: "src/icons/IconFloppyDisk/IconFloppyDisk.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconFloppyDisk1/IconFloppyDisk1.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 9.88203C2.5 6.06832 2.5 4.16146 3.65561 2.95328C3.69831 2.90864 3.74199 2.86496 3.78662 2.82227C4.9948 1.66666 6.90166 1.66666 10.7154 1.66666C11.6192 1.66666 12.0546 1.66979 12.469 1.82446C12.8681 1.9734 13.2024 2.25198 13.871 2.80915L15.7009 4.33409C16.5856 5.07133 17.0279 5.43995 17.264 5.94387C17.5 6.4478 17.5 7.0236 17.5 8.1752V10.8333C17.5 13.9581 17.5 15.5205 16.7042 16.6158C16.4472 16.9695 16.1362 17.2806 15.7824 17.5376C14.6872 18.3333 13.1248 18.3333 10 18.3333C6.87522 18.3333 5.31283 18.3333 4.21756 17.5376C3.86383 17.2806 3.55276 16.9695 3.29576 16.6158C2.5 15.5205 2.5 13.9581 2.5 10.8333V9.88203Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.5"
             }, void 0, false, {
-                fileName: "src/icons/IconFloppyDisk/IconFloppyDisk.tsx",
-                lineNumber: 35,
+                fileName: "src/icons/IconFloppyDisk1/IconFloppyDisk1.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconFloppyDisk/IconFloppyDisk.tsx",
+        fileName: "src/icons/IconFloppyDisk1/IconFloppyDisk1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconFloppyDisk;
+_c = IconFloppyDisk1;
 var _c;
-$RefreshReg$(_c, "IconFloppyDisk");
+$RefreshReg$(_c, "IconFloppyDisk1");
 
-  $parcel$ReactRefreshHelpers$f11c.postlude(module);
+  $parcel$ReactRefreshHelpers$8320.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ljRi5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5hMF0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconInbox", ()=>(0, _iconInbox.IconInbox));
-var _iconInbox = require("./IconInbox");
+parcelHelpers.export(exports, "IconInbox1", ()=>(0, _iconInbox1.IconInbox1));
+var _iconInbox1 = require("./IconInbox1");
 
-},{"./IconInbox":"9RjtN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9RjtN":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$fb3d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconInbox1":"ziHKY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ziHKY":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4c86 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$fb3d.prelude(module);
+$parcel$ReactRefreshHelpers$4c86.prelude(module);
 
 try {
 /*
@@ -29939,13 +31214,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconInbox", ()=>IconInbox);
+parcelHelpers.export(exports, "IconInbox1", ()=>IconInbox1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconInbox = ({ className })=>{
+const IconInbox1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-inbox-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -29953,53 +31228,55 @@ const IconInbox = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.08331 10C2.08331 6.26806 2.08331 4.40208 3.24268 3.24271C4.40205 2.08334 6.26803 2.08334 9.99998 2.08334C13.7319 2.08334 15.5979 2.08334 16.7573 3.24271C17.9166 4.40208 17.9166 6.26806 17.9166 10C17.9166 13.732 17.9166 15.5979 16.7573 16.7573C15.5979 17.9167 13.7319 17.9167 9.99998 17.9167C6.26803 17.9167 4.40205 17.9167 3.24268 16.7573C2.08331 15.5979 2.08331 13.732 2.08331 10Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconInbox/IconInbox.tsx",
+                fileName: "src/icons/IconInbox1/IconInbox1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M17.9166 11.25H13.8119C13.1102 11.25 12.5588 11.8363 12.2495 12.456C11.9135 13.1293 11.2407 13.75 9.99998 13.75C8.75925 13.75 8.08642 13.1293 7.75043 12.456C7.44116 11.8363 6.88979 11.25 6.18803 11.25H2.08331",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconInbox/IconInbox.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconInbox1/IconInbox1.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconInbox/IconInbox.tsx",
+        fileName: "src/icons/IconInbox1/IconInbox1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconInbox;
+_c = IconInbox1;
 var _c;
-$RefreshReg$(_c, "IconInbox");
+$RefreshReg$(_c, "IconInbox1");
 
-  $parcel$ReactRefreshHelpers$fb3d.postlude(module);
+  $parcel$ReactRefreshHelpers$4c86.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d0H1W":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1m1q3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLayout3Column", ()=>(0, _iconLayout3Column.IconLayout3Column));
-var _iconLayout3Column = require("./IconLayout3Column");
+parcelHelpers.export(exports, "IconLayout3Column1", ()=>(0, _iconLayout3Column1.IconLayout3Column1));
+var _iconLayout3Column1 = require("./IconLayout3Column1");
 
-},{"./IconLayout3Column":"RZajo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"RZajo":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6de9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconLayout3Column1":"b0pY6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b0pY6":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dd10 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6de9.prelude(module);
+$parcel$ReactRefreshHelpers$dd10.prelude(module);
 
 try {
 /*
@@ -30007,13 +31284,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLayout3Column", ()=>IconLayout3Column);
+parcelHelpers.export(exports, "IconLayout3Column1", ()=>IconLayout3Column1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconLayout3Column = ({ className })=>{
+const IconLayout3Column1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-layout-3-column-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30021,61 +31298,64 @@ const IconLayout3Column = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M16.7573 3.24271C17.9167 4.40208 17.9167 6.26806 17.9167 10C17.9167 13.732 17.9167 15.5979 16.7573 16.7573C15.5979 17.9167 13.732 17.9167 10 17.9167C6.26806 17.9167 4.40208 17.9167 3.24271 16.7573C2.08334 15.5979 2.08334 13.732 2.08334 10C2.08334 6.26806 2.08334 4.40208 3.24271 3.24271C4.40208 2.08334 6.26806 2.08334 10 2.08334C13.732 2.08334 15.5979 2.08334 16.7573 3.24271Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLayout3Column/IconLayout3Column.tsx",
+                fileName: "src/icons/IconLayout3Column1/IconLayout3Column1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.08334 2.08334V17.9167",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLayout3Column/IconLayout3Column.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconLayout3Column1/IconLayout3Column1.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.9167 2.08334V17.9167",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLayout3Column/IconLayout3Column.tsx",
-                lineNumber: 30,
+                fileName: "src/icons/IconLayout3Column1/IconLayout3Column1.tsx",
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconLayout3Column/IconLayout3Column.tsx",
+        fileName: "src/icons/IconLayout3Column1/IconLayout3Column1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconLayout3Column;
+_c = IconLayout3Column1;
 var _c;
-$RefreshReg$(_c, "IconLayout3Column");
+$RefreshReg$(_c, "IconLayout3Column1");
 
-  $parcel$ReactRefreshHelpers$6de9.postlude(module);
+  $parcel$ReactRefreshHelpers$dd10.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iCMCJ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hfcqM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLeftToRightListDash", ()=>(0, _iconLeftToRightListDash.IconLeftToRightListDash));
-var _iconLeftToRightListDash = require("./IconLeftToRightListDash");
+parcelHelpers.export(exports, "IconLeftToRightListDash3", ()=>(0, _iconLeftToRightListDash3.IconLeftToRightListDash3));
+var _iconLeftToRightListDash3 = require("./IconLeftToRightListDash3");
 
-},{"./IconLeftToRightListDash":"63J5Z","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63J5Z":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7a11 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconLeftToRightListDash3":"eokjg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eokjg":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ff27 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7a11.prelude(module);
+$parcel$ReactRefreshHelpers$ff27.prelude(module);
 
 try {
 /*
@@ -30083,13 +31363,15 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLeftToRightListDash", ()=>IconLeftToRightListDash);
+parcelHelpers.export(exports, "IconLeftToRightListDash3", ()=>IconLeftToRightListDash3);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconLeftToRightListDash = ({ color = "#8C51ED", className })=>{
+const IconLeftToRightListDash3 = ({ color = "#8C51ED", className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-left-to-right-list-dash-3 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30097,92 +31379,101 @@ const IconLeftToRightListDash = ({ color = "#8C51ED", className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 4.16667L17.5 4.16667",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 23,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 4.16667L4.16667 4.16667",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 24,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 10L17.5 10",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 25,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 10L4.16667 10",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 26,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 15.8333L17.5 15.8333",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 27,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 15.8333L4.16667 15.8333",
                 stroke: color,
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconLeftToRightListDash/IconLeftToRightListDash.tsx",
-        lineNumber: 15,
+        fileName: "src/icons/IconLeftToRightListDash3/IconLeftToRightListDash3.tsx",
+        lineNumber: 16,
         columnNumber: 5
     }, undefined);
 };
-_c = IconLeftToRightListDash;
+_c = IconLeftToRightListDash3;
+IconLeftToRightListDash3.propTypes = {
+    color: (0, _propTypesDefault.default).string
+};
 var _c;
-$RefreshReg$(_c, "IconLeftToRightListDash");
+$RefreshReg$(_c, "IconLeftToRightListDash3");
 
-  $parcel$ReactRefreshHelpers$7a11.postlude(module);
+  $parcel$ReactRefreshHelpers$ff27.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"AwYiv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8PyI4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLeftToRightListTriangle", ()=>(0, _iconLeftToRightListTriangle.IconLeftToRightListTriangle));
-var _iconLeftToRightListTriangle = require("./IconLeftToRightListTriangle");
+parcelHelpers.export(exports, "IconLeftToRightListTriangle1", ()=>(0, _iconLeftToRightListTriangle1.IconLeftToRightListTriangle1));
+var _iconLeftToRightListTriangle1 = require("./IconLeftToRightListTriangle1");
 
-},{"./IconLeftToRightListTriangle":"cBkIl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cBkIl":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9925 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconLeftToRightListTriangle1":"4OO9q","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4OO9q":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$111c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9925.prelude(module);
+$parcel$ReactRefreshHelpers$111c.prelude(module);
 
 try {
 /*
@@ -30190,13 +31481,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconLeftToRightListTriangle", ()=>IconLeftToRightListTriangle);
+parcelHelpers.export(exports, "IconLeftToRightListTriangle1", ()=>IconLeftToRightListTriangle1);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconLeftToRightListTriangle = ({ className })=>{
+const IconLeftToRightListTriangle1 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-left-to-right-list-triangle-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30204,82 +31495,87 @@ const IconLeftToRightListTriangle = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.16669 4.58333L17.5 4.58333",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
+                fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M4.5 14.0772C5.38889 14.6725 5.83333 14.9702 5.83333 15.4167C5.83333 15.8632 5.38889 16.1608 4.5 16.7561C3.61111 17.3515 3.16667 17.6491 2.83333 17.4259C2.5 17.2026 2.5 16.6073 2.5 15.4167C2.5 14.226 2.5 13.6307 2.83333 13.4074C3.16667 13.1842 3.61111 13.4819 4.5 14.0772Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
-                lineNumber: 23,
+                fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M4.5 3.24386C5.38889 3.83918 5.83333 4.13684 5.83333 4.58333C5.83333 5.02983 5.38889 5.32749 4.5 5.92281C3.61111 6.51813 3.16667 6.81579 2.83333 6.59255C2.5 6.3693 2.5 5.77398 2.5 4.58333C2.5 3.39269 2.5 2.79737 2.83333 2.57412C3.16667 2.35088 3.61111 2.64854 4.5 3.24386Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.16669 10L17.5 10",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
-                lineNumber: 35,
+                fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M9.16669 15.4167L17.5 15.4167",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
-                lineNumber: 36,
+                fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconLeftToRightListTriangle/IconLeftToRightListTriangle.tsx",
+        fileName: "src/icons/IconLeftToRightListTriangle1/IconLeftToRightListTriangle1.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconLeftToRightListTriangle;
+_c = IconLeftToRightListTriangle1;
 var _c;
-$RefreshReg$(_c, "IconLeftToRightListTriangle");
+$RefreshReg$(_c, "IconLeftToRightListTriangle1");
 
-  $parcel$ReactRefreshHelpers$9925.postlude(module);
+  $parcel$ReactRefreshHelpers$111c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"0532m":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hV9cu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconMessage01", ()=>(0, _iconMessage01.IconMessage01));
-var _iconMessage01 = require("./IconMessage01");
+parcelHelpers.export(exports, "IconMessage011", ()=>(0, _iconMessage011.IconMessage011));
+var _iconMessage011 = require("./IconMessage011");
 
-},{"./IconMessage01":"j2MUr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j2MUr":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5696 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconMessage011":"5Qdmh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5Qdmh":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cebc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5696.prelude(module);
+$parcel$ReactRefreshHelpers$cebc.prelude(module);
 
 try {
 /*
@@ -30287,13 +31583,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconMessage01", ()=>IconMessage01);
+parcelHelpers.export(exports, "IconMessage011", ()=>IconMessage011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconMessage01 = ({ className })=>{
+const IconMessage011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-message-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30301,53 +31597,55 @@ const IconMessage01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.08331 12.0833H12.9166M7.08331 7.91668H9.99998",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconMessage01/IconMessage01.tsx",
+                fileName: "src/icons/IconMessage011/IconMessage011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M11.8089 17.4088C15.2947 17.1771 18.0713 14.361 18.2998 10.8257C18.3445 10.1339 18.3445 9.41745 18.2998 8.72561C18.0713 5.19032 15.2947 2.37429 11.8089 2.14257C10.6196 2.06352 9.37799 2.06368 8.19118 2.14257C4.70534 2.37429 1.92869 5.19032 1.70022 8.72561C1.65551 9.41745 1.65551 10.1339 1.70022 10.8257C1.78343 12.1133 2.35288 13.3055 3.02328 14.3122C3.41253 15.0169 3.15564 15.8965 2.7502 16.6649C2.45786 17.2188 2.31169 17.4958 2.42906 17.6959C2.54642 17.896 2.80857 17.9024 3.33287 17.9152C4.36974 17.9404 5.06892 17.6465 5.62392 17.2372C5.93869 17.0051 6.09608 16.889 6.20455 16.8757C6.31302 16.8623 6.52649 16.9503 6.95336 17.1261C7.33702 17.2841 7.78249 17.3816 8.19118 17.4088C9.37799 17.4877 10.6196 17.4878 11.8089 17.4088Z",
                 stroke: "#8C8EA5",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconMessage01/IconMessage01.tsx",
-                lineNumber: 29,
+                fileName: "src/icons/IconMessage011/IconMessage011.tsx",
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconMessage01/IconMessage01.tsx",
+        fileName: "src/icons/IconMessage011/IconMessage011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconMessage01;
+_c = IconMessage011;
 var _c;
-$RefreshReg$(_c, "IconMessage01");
+$RefreshReg$(_c, "IconMessage011");
 
-  $parcel$ReactRefreshHelpers$5696.postlude(module);
+  $parcel$ReactRefreshHelpers$cebc.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8cEjI":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cSjMa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconSetting01", ()=>(0, _iconSetting01.IconSetting01));
-var _iconSetting01 = require("./IconSetting01");
+parcelHelpers.export(exports, "IconSetting011", ()=>(0, _iconSetting011.IconSetting011));
+var _iconSetting011 = require("./IconSetting011");
 
-},{"./IconSetting01":"cQ2Cv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cQ2Cv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b468 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconSetting011":"jbkAQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jbkAQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2d9e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b468.prelude(module);
+$parcel$ReactRefreshHelpers$2d9e.prelude(module);
 
 try {
 /*
@@ -30355,13 +31653,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconSetting01", ()=>IconSetting01);
+parcelHelpers.export(exports, "IconSetting011", ()=>IconSetting011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconSetting01 = ({ className })=>{
+const IconSetting011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-setting-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30369,51 +31667,53 @@ const IconSetting01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M17.7646 5.95117L17.3533 5.23734C17.0422 4.69748 16.8866 4.42755 16.622 4.31991C16.3573 4.21227 16.058 4.29721 15.4594 4.46708L14.4426 4.75349C14.0604 4.84162 13.6594 4.79163 13.3105 4.61234L13.0297 4.45036C12.7305 4.25871 12.5003 3.97612 12.3729 3.64396L12.0946 2.81281C11.9117 2.26279 11.8202 1.98778 11.6024 1.83049C11.3846 1.67319 11.0952 1.67319 10.5166 1.67319L9.58762 1.67319C9.00899 1.67319 8.71968 1.67319 8.50186 1.83049C8.28405 1.98778 8.19256 2.26279 8.00958 2.81281L7.73129 3.64396C7.60388 3.97612 7.37372 4.25871 7.07448 4.45036L6.79375 4.61234C6.44479 4.79163 6.04383 4.84162 5.66166 4.75349L4.6448 4.46708C4.04619 4.29721 3.74688 4.21227 3.48224 4.31991C3.21759 4.42755 3.06205 4.69748 2.75097 5.23734L2.33965 5.95117C2.04806 6.45721 1.90226 6.71023 1.93056 6.97958C1.95886 7.24893 2.15403 7.46599 2.54439 7.90011L3.4036 8.8607C3.61359 9.12655 3.76268 9.58985 3.76268 10.0064C3.76268 10.4232 3.61364 10.8864 3.40362 11.1523L2.5444 12.1129C2.15404 12.547 1.95886 12.764 1.93056 13.0334C1.90226 13.3027 2.04806 13.5558 2.33965 14.0618L2.75096 14.7756C3.06203 15.3155 3.21759 15.5854 3.48224 15.6931C3.74689 15.8007 4.0462 15.7157 4.64482 15.5459L5.66163 15.2594C6.04387 15.1713 6.4449 15.2213 6.7939 15.4007L7.07459 15.5627C7.37377 15.7543 7.60388 16.0369 7.73126 16.369L8.00958 17.2002C8.19256 17.7502 8.28405 18.0253 8.50186 18.1826C8.71968 18.3399 9.00899 18.3399 9.58762 18.3399H10.5166C11.0952 18.3399 11.3846 18.3399 11.6024 18.1826C11.8202 18.0253 11.9117 17.7502 12.0946 17.2002L12.373 16.369C12.5003 16.0369 12.7305 15.7543 13.0296 15.5627L13.3103 15.4007C13.6593 15.2213 14.0604 15.1713 14.4426 15.2594L15.4594 15.5459C16.058 15.7157 16.3573 15.8007 16.622 15.6931C16.8866 15.5854 17.0422 15.3155 17.3533 14.7756L17.7646 14.0618L17.7646 14.0618C18.0562 13.5558 18.202 13.3027 18.1737 13.0334C18.1454 12.764 17.9502 12.547 17.5598 12.1129L16.7006 11.1523C16.4906 10.8864 16.3415 10.4232 16.3415 10.0064C16.3415 9.58985 16.4906 9.12655 16.7006 8.8607L17.5598 7.90011C17.9502 7.46599 18.1454 7.24893 18.1737 6.97958C18.202 6.71023 18.0562 6.45721 17.7646 5.95117Z",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconSetting01/IconSetting01.tsx",
+                fileName: "src/icons/IconSetting011/IconSetting011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.9329 10C12.9329 11.6108 11.6271 12.9167 10.0163 12.9167C8.40545 12.9167 7.09961 11.6108 7.09961 10C7.09961 8.38918 8.40545 7.08334 10.0163 7.08334C11.6271 7.08334 12.9329 8.38918 12.9329 10Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconSetting01/IconSetting01.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconSetting011/IconSetting011.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconSetting01/IconSetting01.tsx",
+        fileName: "src/icons/IconSetting011/IconSetting011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconSetting01;
+_c = IconSetting011;
 var _c;
-$RefreshReg$(_c, "IconSetting01");
+$RefreshReg$(_c, "IconSetting011");
 
-  $parcel$ReactRefreshHelpers$b468.postlude(module);
+  $parcel$ReactRefreshHelpers$2d9e.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iWkBR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d9XO0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconShare02", ()=>(0, _iconShare02.IconShare02));
-var _iconShare02 = require("./IconShare02");
+parcelHelpers.export(exports, "IconShare021", ()=>(0, _iconShare021.IconShare021));
+var _iconShare021 = require("./IconShare021");
 
-},{"./IconShare02":"gjz6V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gjz6V":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0f3f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconShare021":"6mNrv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6mNrv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$13b0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0f3f.prelude(module);
+$parcel$ReactRefreshHelpers$13b0.prelude(module);
 
 try {
 /*
@@ -30421,13 +31721,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconShare02", ()=>IconShare02);
+parcelHelpers.export(exports, "IconShare021", ()=>IconShare021);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconShare02 = ({ className })=>{
+const IconShare021 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-share-02-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30435,72 +31735,76 @@ const IconShare02 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M7.5 3.75C4.58702 4.75087 2.5 7.45146 2.5 10.6259C2.5 11.6315 2.70945 12.5896 3.08826 13.4612M12.5 3.75C15.413 4.75087 17.5 7.45146 17.5 10.6259C17.5 11.478 17.3496 12.296 17.0732 13.0562M13.75 16.9413C12.6469 17.5616 11.3661 17.9167 10 17.9167C8.63392 17.9167 7.35315 17.5616 6.25 16.9413",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare02/IconShare02.tsx",
+                fileName: "src/icons/IconShare021/IconShare021.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 4.16667C12.5 5.54738 11.3807 6.66667 10 6.66667C8.61929 6.66667 7.5 5.54738 7.5 4.16667C7.5 2.78596 8.61929 1.66667 10 1.66667C11.3807 1.66667 12.5 2.78596 12.5 4.16667Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare02/IconShare02.tsx",
-                lineNumber: 27,
+                fileName: "src/icons/IconShare021/IconShare021.tsx",
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                className: "circle",
                 cx: "4.16669",
                 cy: "15.8333",
                 r: "2.5",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare02/IconShare02.tsx",
-                lineNumber: 32,
+                fileName: "src/icons/IconShare021/IconShare021.tsx",
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("circle", {
+                className: "circle",
                 cx: "15.8333",
                 cy: "15.8333",
                 r: "2.5",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconShare02/IconShare02.tsx",
-                lineNumber: 33,
+                fileName: "src/icons/IconShare021/IconShare021.tsx",
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconShare02/IconShare02.tsx",
+        fileName: "src/icons/IconShare021/IconShare021.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconShare02;
+_c = IconShare021;
 var _c;
-$RefreshReg$(_c, "IconShare02");
+$RefreshReg$(_c, "IconShare021");
 
-  $parcel$ReactRefreshHelpers$0f3f.postlude(module);
+  $parcel$ReactRefreshHelpers$13b0.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"evjZ8":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"861CK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconTarget01", ()=>(0, _iconTarget01.IconTarget01));
-var _iconTarget01 = require("./IconTarget01");
+parcelHelpers.export(exports, "IconTarget011", ()=>(0, _iconTarget011.IconTarget011));
+var _iconTarget011 = require("./IconTarget011");
 
-},{"./IconTarget01":"2R65a","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2R65a":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6f89 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconTarget011":"6u0SO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6u0SO":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1083 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6f89.prelude(module);
+$parcel$ReactRefreshHelpers$1083.prelude(module);
 
 try {
 /*
@@ -30508,13 +31812,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconTarget01", ()=>IconTarget01);
+parcelHelpers.export(exports, "IconTarget011", ()=>IconTarget011);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconTarget01 = ({ className })=>{
+const IconTarget011 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-target-01-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30522,63 +31826,66 @@ const IconTarget01 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.6093 2.08334C11.7885 1.81296 10.9114 1.66667 10 1.66667C5.39765 1.66667 1.66669 5.39763 1.66669 10C1.66669 14.6024 5.39765 18.3333 10 18.3333C14.6024 18.3333 18.3334 14.6024 18.3334 10C18.3334 9.129 18.1997 8.28921 17.9519 7.5",
                 stroke: "#DF5FFE",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconTarget01/IconTarget01.tsx",
+                fileName: "src/icons/IconTarget011/IconTarget011.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M14.1666 9.99999C14.1666 12.3012 12.3012 14.1667 9.99998 14.1667C7.69879 14.1667 5.83331 12.3012 5.83331 9.99999C5.83331 7.69881 7.69879 5.83333 9.99998 5.83333",
                 stroke: "#DF5FFE",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconTarget01/IconTarget01.tsx",
-                lineNumber: 28,
+                fileName: "src/icons/IconTarget011/IconTarget011.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M16.25 3.74999L10 10M16.25 3.74999V1.66666M16.25 3.74999H18.3333",
                 stroke: "#DF5FFE",
                 strokeLinecap: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconTarget01/IconTarget01.tsx",
-                lineNumber: 35,
+                fileName: "src/icons/IconTarget011/IconTarget011.tsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconTarget01/IconTarget01.tsx",
+        fileName: "src/icons/IconTarget011/IconTarget011.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconTarget01;
+_c = IconTarget011;
 var _c;
-$RefreshReg$(_c, "IconTarget01");
+$RefreshReg$(_c, "IconTarget011");
 
-  $parcel$ReactRefreshHelpers$6f89.postlude(module);
+  $parcel$ReactRefreshHelpers$1083.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aJzQe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hm7av":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconWorkflowSquare08", ()=>(0, _iconWorkflowSquare08.IconWorkflowSquare08));
-var _iconWorkflowSquare08 = require("./IconWorkflowSquare08");
+parcelHelpers.export(exports, "IconWorkflowSquare081", ()=>(0, _iconWorkflowSquare081.IconWorkflowSquare081));
+var _iconWorkflowSquare081 = require("./IconWorkflowSquare081");
 
-},{"./IconWorkflowSquare08":"3Eyma","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Eyma":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a9f8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./IconWorkflowSquare081":"d2nLJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d2nLJ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$65ad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a9f8.prelude(module);
+$parcel$ReactRefreshHelpers$65ad.prelude(module);
 
 try {
 /*
@@ -30586,13 +31893,13 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "IconWorkflowSquare08", ()=>IconWorkflowSquare08);
+parcelHelpers.export(exports, "IconWorkflowSquare081", ()=>IconWorkflowSquare081);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const IconWorkflowSquare08 = ({ className })=>{
+const IconWorkflowSquare081 = ({ className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `icon-workflow-square-08-1 ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
@@ -30600,66 +31907,71 @@ const IconWorkflowSquare08 = ({ className })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 15.8333C2.5 17.0118 2.5 17.6011 2.86612 17.9672C3.23223 18.3333 3.82149 18.3333 5 18.3333C6.17851 18.3333 6.76777 18.3333 7.13388 17.9672C7.5 17.6011 7.5 17.0118 7.5 15.8333C7.5 14.6548 7.5 14.0655 7.13388 13.6994C6.76777 13.3333 6.17851 13.3333 5 13.3333C3.82149 13.3333 3.23223 13.3333 2.86612 13.6994C2.5 14.0655 2.5 14.6548 2.5 15.8333Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
+                fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M2.5 4.16663C2.5 5.34514 2.5 5.93439 2.86612 6.30051C3.23223 6.66663 3.82149 6.66663 5 6.66663C6.17851 6.66663 6.76777 6.66663 7.13388 6.30051C7.5 5.93439 7.5 5.34514 7.5 4.16663C7.5 2.98811 7.5 2.39886 7.13388 2.03274C6.76777 1.66663 6.17851 1.66663 5 1.66663C3.82149 1.66663 3.23223 1.66663 2.86612 2.03274C2.5 2.39886 2.5 2.98811 2.5 4.16663Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
-                lineNumber: 27,
+                fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 11.6666C12.5 12.8451 12.5 13.4344 12.8661 13.8005C13.2322 14.1666 13.8215 14.1666 15 14.1666C16.1785 14.1666 16.7678 14.1666 17.1339 13.8005C17.5 13.4344 17.5 12.8451 17.5 11.6666C17.5 10.4881 17.5 9.89886 17.1339 9.53274C16.7678 9.16663 16.1785 9.16663 15 9.16663C13.8215 9.16663 13.2322 9.16663 12.8661 9.53274C12.5 9.89886 12.5 10.4881 12.5 11.6666Z",
                 stroke: "#8C8EA5",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
-                lineNumber: 32,
+                fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M5 6.66665L5 13.3333",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
-                lineNumber: 37,
+                fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                className: "path",
                 d: "M12.5 11.6666H10C7.23858 11.6666 5 9.42805 5 6.66663",
                 stroke: "#8C8EA5",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: "1.25"
             }, void 0, false, {
-                fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
-                lineNumber: 38,
+                fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/icons/IconWorkflowSquare08/IconWorkflowSquare08.tsx",
+        fileName: "src/icons/IconWorkflowSquare081/IconWorkflowSquare081.tsx",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
-_c = IconWorkflowSquare08;
+_c = IconWorkflowSquare081;
 var _c;
-$RefreshReg$(_c, "IconWorkflowSquare08");
+$RefreshReg$(_c, "IconWorkflowSquare081");
 
-  $parcel$ReactRefreshHelpers$a9f8.postlude(module);
+  $parcel$ReactRefreshHelpers$65ad.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -30684,31 +31996,37 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WeightRegular", ()=>WeightRegular);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const WeightRegular = ({ color = "#343330", className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `${className}`,
+        className: `weight-regular ${className}`,
         fill: "none",
         height: "20",
         viewBox: "0 0 20 20",
         width: "20",
         xmlns: "http://www.w3.org/2000/svg",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
             d: "M17.9422 17.0578L14.0305 13.1469C15.1642 11.7857 15.7296 10.0398 15.6089 8.27244C15.4883 6.50506 14.6909 4.85223 13.3826 3.65779C12.0744 2.46334 10.356 1.81926 8.58492 1.85951C6.81388 1.89976 5.12653 2.62125 3.87389 3.87389C2.62125 5.12653 1.89976 6.81388 1.85951 8.58492C1.81926 10.356 2.46334 12.0744 3.65779 13.3826C4.85223 14.6909 6.50506 15.4883 8.27244 15.6089C10.0398 15.7296 11.7857 15.1642 13.1469 14.0305L17.0578 17.9422C17.1159 18.0003 17.1848 18.0463 17.2607 18.0777C17.3366 18.1092 17.4179 18.1253 17.5 18.1253C17.5821 18.1253 17.6634 18.1092 17.7393 18.0777C17.8152 18.0463 17.8841 18.0003 17.9422 17.9422C18.0003 17.8841 18.0463 17.8152 18.0777 17.7393C18.1092 17.6634 18.1253 17.5821 18.1253 17.5C18.1253 17.4179 18.1092 17.3366 18.0777 17.2607C18.0463 17.1848 18.0003 17.1159 17.9422 17.0578ZM3.125 8.75C3.125 7.63748 3.4549 6.54994 4.07298 5.62491C4.69106 4.69989 5.56957 3.97892 6.5974 3.55317C7.62524 3.12743 8.75624 3.01604 9.84738 3.23308C10.9385 3.45012 11.9408 3.98585 12.7275 4.77252C13.5141 5.55919 14.0499 6.56147 14.2669 7.65261C14.484 8.74376 14.3726 9.87475 13.9468 10.9026C13.5211 11.9304 12.8001 12.8089 11.8751 13.427C10.9501 14.0451 9.86252 14.375 8.75 14.375C7.25866 14.3733 5.82888 13.7802 4.77435 12.7256C3.71981 11.6711 3.12665 10.2413 3.125 8.75Z",
             fill: color
         }, void 0, false, {
             fileName: "src/icons/WeightRegular/WeightRegular.tsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/icons/WeightRegular/WeightRegular.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, undefined);
 };
 _c = WeightRegular;
+WeightRegular.propTypes = {
+    color: (0, _propTypesDefault.default).string
+};
 var _c;
 $RefreshReg$(_c, "WeightRegular");
 
@@ -30717,10 +32035,7 @@ $RefreshReg$(_c, "WeightRegular");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"l53GU":[function(require,module,exports) {
-module.exports = require("d48c8c494fde845e").getBundleURL("6EXJA") + "vector-7304.103b8659.svg" + "?" + Date.now();
-
-},{"d48c8c494fde845e":"lgJ39"}],"fCnBV":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d7GLg":[function() {},{}],"fCnBV":[function(require,module,exports) {
 module.exports = require("d81f68a42eb16124").getBundleURL("6EXJA") + "subtract-2.8cd21408.svg" + "?" + Date.now();
 
 },{"d81f68a42eb16124":"lgJ39"}],"jmqWt":[function(require,module,exports) {
@@ -30738,6 +32053,6 @@ module.exports = require("f58fa60851517949").getBundleURL("6EXJA") + "ellipse-2@
 },{"f58fa60851517949":"lgJ39"}],"j27RN":[function(require,module,exports) {
 module.exports = require("51764f2c475cea5f").getBundleURL("6EXJA") + "frame-1597878361.a2d00439.svg" + "?" + Date.now();
 
-},{"51764f2c475cea5f":"lgJ39"}]},["9p54t","1xC6H","4aBH6"], "4aBH6", "parcelRequire121f")
+},{"51764f2c475cea5f":"lgJ39"}]},["9p54t","1xC6H","4aBH6"], "4aBH6", "parcelRequire9e0f")
 
 //# sourceMappingURL=index.2d3ace14.js.map

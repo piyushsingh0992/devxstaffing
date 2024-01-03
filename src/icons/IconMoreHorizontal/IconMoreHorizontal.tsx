@@ -12,16 +12,37 @@ interface Props {
 export const IconMoreHorizontal = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`icon-more-horizontal ${className}`}
       fill="none"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M11.992 12H12.001" stroke="#8C8EA5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
-      <path d="M11.9842 18H11.9932" stroke="#8C8EA5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
-      <path d="M11.9998 6H12.0088" stroke="#8C8EA5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
+      <path
+        className="path"
+        d="M7.99468 8H8.00067"
+        stroke="#8C8EA5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.66667"
+      />
+      <path
+        className="path"
+        d="M7.98943 12H7.99542"
+        stroke="#8C8EA5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.66667"
+      />
+      <path
+        className="path"
+        d="M7.99987 4H8.00586"
+        stroke="#8C8EA5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.66667"
+      />
     </svg>
   );
 };
