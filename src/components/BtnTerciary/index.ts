@@ -1,0 +1,1 @@
+export { BtnTerciary } from "./BtnTerciary";

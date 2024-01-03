@@ -1,0 +1,1 @@
+export { IconLeftToRightBlockQuote } from "./IconLeftToRightBlockQuote";

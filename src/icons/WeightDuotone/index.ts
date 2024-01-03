@@ -1,0 +1,1 @@
+export { WeightDuotone } from "./WeightDuotone";

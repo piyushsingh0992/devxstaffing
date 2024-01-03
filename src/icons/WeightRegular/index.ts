@@ -1,0 +1,1 @@
+export { WeightRegular } from "./WeightRegular";

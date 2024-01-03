@@ -1,0 +1,1 @@
+export { IconInbox } from "./IconInbox";
